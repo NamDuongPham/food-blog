@@ -20,15 +20,12 @@ export const SITE_MAP: SiteMap = {
   CART: {
     url: "/cart",
     title: "Cart",
-    roles: ["user"],
+
   },
-  LOGIN: {
-    url: "/login",
-    title: "Login",
-  },
-  CATEGORY: {
-    url: "/category",
-    title: "Category",
+  BLOG: {
+    url: "/blog",
+    title: "Blog",
+ 
   },
   ADMIN: {
     url: "/admin",

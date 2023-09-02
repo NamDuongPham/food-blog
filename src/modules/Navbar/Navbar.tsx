@@ -2,7 +2,7 @@
 import UserMenu from "./components/UserMenu/UserMenu";
 import Logo from "./components/Logo/Logo";
 import Search from "./components/Search/Search";
-import Category from "./components/Category/Category";
+
 
 function NavBar() {
     return (
@@ -12,7 +12,6 @@ function NavBar() {
               <Search/>
               <UserMenu/>
           </div>
-        <Category/>
       </div>
     );
   }

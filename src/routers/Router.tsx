@@ -3,12 +3,14 @@ import { SITE_MAP } from "../constants/site-map";
 import AdminLayout from "../layouts/admin.layout";
 import DefaultLayout from "../layouts/default.layout";
 import HomePage from "../pages/Home/HomePage";
+import BlogPage from "../pages/Blog/BlogPage";
 
 export const Router = () => {
   return (
     <Routes>
       <Route path={SITE_MAP.HOME.url} element={<DefaultLayout />}>
         <Route path={SITE_MAP.HOME.url} element={<HomePage />} />
+        <Route path={SITE_MAP.BLOG.url} element={<BlogPage />} />
       </Route>
 
       {/* <-------------layout admin--------------------> */}

@@ -16,7 +16,7 @@ export const baseQueryWithoutAuth = fetchBaseQuery({
   cache: 'no-cache',
 } );
 
-export const baseQueryWithRoomService = fetchBaseQuery({
+export const baseQueryWithPostService = fetchBaseQuery({
   baseUrl: import.meta.env.VITE_API_URL,
 })
 
