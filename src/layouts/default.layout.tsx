@@ -1,19 +1,21 @@
 import { Outlet } from "react-router";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
+import SlideBar from "../modules/SlideBar";
 
 
-const DefaultLayout =()=> {
+const DefaultLayout = () => {
 
   return <>
     <header>
-        <Header></Header>
+      <Header />
     </header>
     <main className="min-h-[800px]">
-        <Outlet/>
+      <SlideBar />
+      <Outlet />
     </main>
     <footer>
-        <Footer></Footer>
+      <Footer />
     </footer>
   </>;
 }
