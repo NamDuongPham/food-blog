@@ -5,12 +5,11 @@ import SlideBar from "../modules/SlideBar";
 
 
 const DefaultLayout = () => {
-
   return <>
     <header>
       <Header />
     </header>
-    <main className="min-h-[800px]">
+    <main className="min-h-[800px] flex flex-row">
       <SlideBar />
       <Outlet />
     </main>

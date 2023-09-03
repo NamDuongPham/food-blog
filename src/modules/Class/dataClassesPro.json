@@ -1,0 +1,47 @@
+[
+    {
+        "ClassName": "Authentic Italian Pasta Making",
+        "Date": "October 15, 2023",
+        "Time": "3:00 PM - 6:00 PM",
+        "Location": "Bella Cucina Cooking School",
+        "Description": "Learn how to make traditional Italian pasta from scratch, including classic pasta shapes like fettuccine and ravioli. Master the art of making rich, homemade tomato sauce and enjoy a delightful Italian feast.",
+        "Price": 50.00,
+        "Image": "https://images.pexels.com/photos/6287552/pexels-photo-6287552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "ClassName": "Sushi Chef Mastery",
+        "Date": "November 5, 2023",
+        "Time": "10:00 AM - 1:00 PM",
+        "Location": "Sushi Academy",
+        "Description": "Dive into the world of Japanese cuisine as you discover the secrets of sushi making. Learn to prepare sushi rice, roll your own sushi, and create exquisite sashimi dishes. Gain insights into the cultural significance of sushi.",
+        "Price": 75.00,
+        "Image": "https://images.pexels.com/photos/8951245/pexels-photo-8951245.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "ClassName": "Art of French Pastry",
+        "Date": "December 2, 2023",
+        "Time": "2:00 PM - 5:00 PM",
+        "Location": "Le Pâtisserie Élégante",
+        "Description": "Experience the elegance of French pastry making. Craft delicate croissants, fluffy macarons, and decadent éclairs. Explore the techniques of French pastry chefs and savor the sweet flavors of France.",
+        "Price": 60.00,
+        "Image": "https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "ClassName": "Taste of Thailand",
+        "Date": "January 20, 2024",
+        "Time": "6:30 PM - 9:30 PM",
+        "Location": "Spice of Siam Cooking School",
+        "Description": "Journey through the vibrant flavors of Thailand. Discover the art of creating spicy Tom Yum soup, aromatic green curry, and the perfect pad Thai. Immerse yourself in the world of Thai herbs and spices.",
+        "Price": 55.00,
+        "Image": "https://images.pexels.com/photos/11292523/pexels-photo-11292523.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "ClassName": "Nutrition and Wellness Cooking",
+        "Date": "February 8, 2024",
+        "Time": "11:00 AM - 2:00 PM",
+        "Location": "Healthful Kitchen",
+        "Description": "Focus on health and well-being as you prepare nutritious and delicious meals. Learn about balanced diets, superfoods, and cooking techniques that promote a healthier lifestyle.",
+        "Price": 40.00,
+        "Image": "https://images.pexels.com/photos/128402/pexels-photo-128402.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+]

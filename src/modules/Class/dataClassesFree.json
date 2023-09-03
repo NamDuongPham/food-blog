@@ -1,0 +1,42 @@
+[
+    {
+        "ClassName": "Farm-to-Table Cooking",
+        "Date": "June 25, 2023",
+        "Time": "10:00 AM - 12:00 PM",
+        "Location": "City Park Community Garden",
+        "Description": "Join us in our beautiful community garden for a free cooking workshop. Harvest fresh, organic produce and learn how to create delicious and healthy dishes using ingredients straight from the garden. Open to all ages and skill levels.",
+        "Image": "https://images.pexels.com/photos/1147687/pexels-photo-1147687.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "ClassName": "Kids Can Cook",
+        "Date": "July 8, 2023",
+        "Time": "2:00 PM - 4:00 PM",
+        "Location": "Local Recreation Center",
+        "Description": "Encourage your children to get involved in the kitchen! This free cooking class for kids will teach them the basics of cooking and nutrition in a fun and interactive way. Parents are welcome to participate too.",
+        "Image": "https://images.pexels.com/photos/4259707/pexels-photo-4259707.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "ClassName": "Cooking 101",
+        "Date": "August 12, 2023",
+        "Time": "6:30 PM - 8:30 PM",
+        "Location": "Community Center Kitchen",
+        "Description": "Are you new to cooking or looking to improve your skills? Join our free cooking class for beginners. We'll cover essential cooking techniques, knife skills, and basic recipes to help you gain confidence in the kitchen.",
+        "Image": "https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "ClassName": "Around the World in 80 Dishes",
+        "Date": "September 5, 2023",
+        "Time": "5:00 PM - 7:00 PM",
+        "Location": "Multicultural Center",
+        "Description": "Embark on a culinary journey without leaving town! This free cooking class will feature dishes from various cultures. Learn to prepare and taste international cuisines while celebrating diversity.",
+        "Image": "https://images.pexels.com/photos/2696064/pexels-photo-2696064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "ClassName": "Cooking on a Shoestring",
+        "Date": "October 15, 2023",
+        "Time": "11:00 AM - 1:00 PM",
+        "Location": "Local Food Bank Community Kitchen",
+        "Description": "Discover how to create delicious meals on a tight budget. Our free cooking class will teach you how to shop smart, reduce food waste, and prepare affordable yet tasty dishes for yourself and your family.",
+        "Image": "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+]
