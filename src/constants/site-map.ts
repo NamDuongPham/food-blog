@@ -13,6 +13,10 @@ export const SITE_MAP: SiteMap = {
     url: "/",
     title: "Home",
   },
+  DETAIL: {
+    url: "/detail",
+    title: "Detail",
+  },
   ABOUT: {
     url: "/about",
     title: "About",

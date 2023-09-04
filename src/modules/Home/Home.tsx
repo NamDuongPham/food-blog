@@ -1,15 +1,14 @@
-import { useGetPostsQuery } from "../../services/courseService";
+import BannerGrid from "./components/BannerGrid/BannerGrid";
+import PopularRecipes from "./components/PopularRecipes/PopularRecipes";
+import RecipesList from "./components/RecipesList/RecipesList";
 
 function Home() {
-  const { data } = useGetPostsQuery();
-  console.log(data);
-  
   return (
-    <div>
-      {/* <Link to={SITE_MAP.BLOG.url}>
-        bấm vào đây tới trnag blog
-      </Link> */}
-    </div>
+    <>
+      <BannerGrid />
+      <PopularRecipes/>
+      <RecipesList/>
+    </>
   );
 }
 

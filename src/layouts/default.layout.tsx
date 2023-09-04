@@ -9,7 +9,7 @@ const DefaultLayout =()=> {
     <header>
         <Header></Header>
     </header>
-    <main className="min-h-[800px]">
+    <main className="min-h-[3500px]">
         <Outlet/>
     </main>
     <footer>
