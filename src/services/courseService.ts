@@ -1,20 +1,22 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
-import { baseQueryWithPostService } from './baseQuery';
-import { IUser } from '../types/user';
+import { baseQueryWithCourseService } from "./baseQuery";
 
-export const postApi = createApi({
-  reducerPath: 'postApi',
-  baseQuery: baseQueryWithPostService,
-  endpoints: builder => ({
-    getPosts: builder.query<IUser[],void>({
-      query: () =>  "posts",
-     
+interface ICourse {
+      ClassName: string,
+      Date: string,
+      Time: string,
+      Location: string,
+      Description: string,
+      Image: string
+}
 
-    }),
-    getPostById: builder.query({
-        query: (id) => `posts/${id}`,
-      }),
-        
-  }),
+export const courseApi = createApi({
+      reducerPath: 'courseApi',
+      baseQuery: baseQueryWithCourseService,
+      endpoints: builder => ({
+            getCourseFree: builder.query<ICourse[], void>({
+                  query: () => "coursesFree",
+            })
+      })
 });
-export const { useGetPostsQuery,useGetPostByIdQuery } = postApi;
+export const { useGetCourseFreeQuery } = courseApi;

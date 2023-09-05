@@ -1,4 +1,4 @@
-import {  fetchBaseQuery } from '@reduxjs/toolkit/dist/query';
+import { fetchBaseQuery } from '@reduxjs/toolkit/dist/query';
 
 export const baseQueryWithAuth = fetchBaseQuery({
   baseUrl: import.meta.env.VITE_API_URL,
@@ -10,13 +10,17 @@ export const baseQueryWithAuth = fetchBaseQuery({
     return headers;
   },
   cache: 'no-cache',
-} );
+});
 export const baseQueryWithoutAuth = fetchBaseQuery({
   baseUrl: import.meta.env.VITE_API_URL,
   cache: 'no-cache',
-} );
+});
 
 export const baseQueryWithPostService = fetchBaseQuery({
+  baseUrl: import.meta.env.VITE_API_URL,
+})
+
+export const baseQueryWithCourseService = fetchBaseQuery({
   baseUrl: import.meta.env.VITE_API_URL,
 })
 
