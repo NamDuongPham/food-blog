@@ -24,12 +24,15 @@ export const SITE_MAP: SiteMap = {
   CART: {
     url: "/cart",
     title: "Cart",
-
   },
   BLOG: {
     url: "/blog",
     title: "Blog",
- 
+
+  },
+  CLASS: {
+    url: "/class",
+    title: "Class",
   },
   ADMIN: {
     url: "/admin",

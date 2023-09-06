@@ -1,8 +1,8 @@
 
-import UserMenu from "./components/UserMenu/UserMenu";
+import Category from "./components/Category/Category";
 import Logo from "./components/Logo/Logo";
 import Search from "./components/Search/Search";
-import Category from "./components/Category/Category";
+import UserMenu from "./components/UserMenu/UserMenu";
 
 
 function NavBar() {
@@ -14,8 +14,8 @@ function NavBar() {
               <UserMenu/>
           </div>
           <Category/>
-      </div>
-    );
-  }
-  
-  export default NavBar;
+        </div>
+  );
+}
+
+export default NavBar;

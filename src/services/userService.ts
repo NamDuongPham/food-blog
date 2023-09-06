@@ -2,19 +2,19 @@ import { createApi } from '@reduxjs/toolkit/query/react';
 import { baseQueryWithPostService } from './baseQuery';
 import { IUser } from '../types/user';
 
-export const postApi = createApi({
-  reducerPath: 'postApi',
+export const userApi = createApi({
+  reducerPath: 'userApi',
   baseQuery: baseQueryWithPostService,
   endpoints: builder => ({
-    getPosts: builder.query<IUser[],void>({
-      query: () =>  "posts",
+    getUsers: builder.query<IUser[],void>({
+      query: () =>  "users",
      
 
     }),
-    getPostById: builder.query({
+    getUserById: builder.query({
         query: (id) => `posts/${id}`,
       }),
         
   }),
 });
-export const { useGetPostsQuery,useGetPostByIdQuery } = postApi;
+export const { useGetUsersQuery } = userApi;

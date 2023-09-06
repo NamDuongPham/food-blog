@@ -3,7 +3,7 @@ import InfoSlideBar from "./Components/InfoSlideBar/InfoSlideBar";
 
 function Detail() {
   return (
-    <div className="mx-auto container lg:mx-10">
+    <div className="  lg:mx-10">
       <div>
         <h1 className="font-bold text-black text-center">
           Honey Garlic Chicken
@@ -24,7 +24,7 @@ function Detail() {
         <div className="basis-2/3">
             <InfoDetail/>
         </div>
-        <div className="basis-1/3 pl-[40px]">
+        <div className="basis-1/3 md:basis-1/3  pl-[30px]">
             <InfoSlideBar/>
         </div>
       </div>

@@ -4,7 +4,11 @@ import AdminLayout from "../layouts/admin.layout";
 import DefaultLayout from "../layouts/default.layout";
 import HomePage from "../pages/Home/HomePage";
 import BlogPage from "../pages/Blog/BlogPage";
+
 import DetailPage from "../pages/Detail/DetailPage";
+import ClassPage from "../pages/Class/ClassPage";
+
+
 
 export const Router = () => {
   return (
@@ -12,7 +16,11 @@ export const Router = () => {
       <Route path={SITE_MAP.HOME.url} element={<DefaultLayout />}>
         <Route path={SITE_MAP.HOME.url} element={<HomePage />} />
         <Route path={SITE_MAP.BLOG.url} element={<BlogPage />} />
+
         <Route path={SITE_MAP.DETAIL.url} element={<DetailPage />} />
+
+        <Route path={SITE_MAP.CLASS.url} element={<ClassPage />} />
+
       </Route>
 
       {/* <-------------layout admin--------------------> */}

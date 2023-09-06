@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { AiOutlinePrinter } from "react-icons/ai";
 
 function InfoDetail() {
   const [numberServes, setNumberServes] = useState(4);
@@ -63,6 +64,9 @@ function InfoDetail() {
         {/* board */}
         <div style={{ borderTop: "1px solid gray" }}></div>
         <div className="bg-[#f8f8f8] my-5">
+          <div className="cursor-pointer">
+            <AiOutlinePrinter size={30} />  
+          </div>
           <div className="flex items-center justify-center p-5">
             <img
               src="https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/04/honey-garlic-chicken-3370w-500x500.webp"
