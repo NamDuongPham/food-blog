@@ -7,9 +7,7 @@ import BlogPage from "../pages/Blog/BlogPage";
 
 import DetailPage from "../pages/Detail/DetailPage";
 import ClassPage from "../pages/Class/ClassPage";
-import Detail from "../modules/Class/Detail";
-
-
+import Detail from "../modules/Class/Detail/Detail";
 
 export const Router = () => {
   return (

@@ -35,7 +35,7 @@ export const SITE_MAP: SiteMap = {
     title: "Class",
   },
   DETAIL_CLASS: {
-    url: "/detail-class",
+    url: "/detail-class/:classname",
     title: "Detail Class",
   },
   ADMIN: {

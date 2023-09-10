@@ -17,7 +17,9 @@ export default function Class() {
                             name: item.ClassName,
                             description: item.Description,
                             price: 0
-                        }))} className='bg-cyan-700 p-2 text-center rounded-lg text-slate-100' href='/detail-class'>Start</a>
+                        }))} className='bg-cyan-700 p-2 text-center rounded-lg text-slate-100'
+                            href={`/detail-class/${item.ClassName.toLowerCase().replace(' ', '-')}`}
+                        >Start</a>
                     </div>
                 )}
             </div>
@@ -33,7 +35,9 @@ export default function Class() {
                             name: item.ClassName,
                             description: item.Description,
                             price: item.Price
-                        }))} className='bg-cyan-700 p-2 text-center rounded-lg text-slate-100' href='/detail-class'>Start</a>
+                        }))} className='bg-cyan-700 p-2 text-center rounded-lg text-slate-100'
+                            href={`/detail-class/${item.ClassName.toLowerCase().replace(' ', '-')}`}
+                        >Start</a>
                     </div>
                 )}
             </div>
