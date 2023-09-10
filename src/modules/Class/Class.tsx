@@ -13,7 +13,11 @@ export default function Class() {
                         <img src={item.Image} width={400} height={200} className='rounded-md' />
                         <p className='text-xl font-bold'>Class: <span className='text-base font-normal'>{item.ClassName}</span></p>
                         <p className='text-xl font-bold w-[400px]'>Description: <span className='text-base font-normal'>{item.Description}</span></p>
-                        <button className='bg-cyan-700'>Start</button>
+                        <a onClick={() => localStorage.setItem("class", JSON.stringify({
+                            name: item.ClassName,
+                            description: item.Description,
+                            price: 0
+                        }))} className='bg-cyan-700 p-2 text-center rounded-lg text-slate-100' href='/detail-class'>Start</a>
                     </div>
                 )}
             </div>
@@ -25,7 +29,11 @@ export default function Class() {
                         <p className='text-xl font-bold'>Class: <span className='text-base font-normal'>{item.ClassName}</span></p>
                         <p className='text-xl font-bold w-[400px]'>Description: <span className='text-base font-normal'>{item.Description}</span></p>
                         <p className='text-xl font-bold w-[400px]'>Price: <span className='text-base font-normal'>{item.Price}$</span></p>
-                        <button className='bg-cyan-700'>Start</button>
+                        <a onClick={() => localStorage.setItem("class", JSON.stringify({
+                            name: item.ClassName,
+                            description: item.Description,
+                            price: item.Price
+                        }))} className='bg-cyan-700 p-2 text-center rounded-lg text-slate-100' href='/detail-class'>Start</a>
                     </div>
                 )}
             </div>
