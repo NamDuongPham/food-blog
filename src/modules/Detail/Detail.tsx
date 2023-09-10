@@ -1,7 +1,9 @@
+import { useTitle } from "../../hooks/useTitle";
 import InfoDetail from "./Components/InfoDetail/InfoDetail";
 import InfoSlideBar from "./Components/InfoSlideBar/InfoSlideBar";
 
 function Detail() {
+  useTitle("detail")
   return (
     <div className="  lg:mx-10">
       <div>
@@ -21,7 +23,7 @@ function Detail() {
       </div>
       {/*  */}
       <div className="mt-5 flex flex-row justify-between">
-        <div className="basis-2/3">
+        <div className="basis-2/3 ">
             <InfoDetail/>
         </div>
         <div className="basis-1/3 md:basis-1/3  pl-[30px]">

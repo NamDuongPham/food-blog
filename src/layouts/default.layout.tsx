@@ -10,7 +10,7 @@ const DefaultLayout = () => {
         <Header />
       </header>
 
-      <main className="min-h-[800px] flex flex-row justify-evenly">
+      <main className="min-h-[800px] flex flex-row lg:justify-start  ">
         <SlideBar />
         <Outlet />
       </main>

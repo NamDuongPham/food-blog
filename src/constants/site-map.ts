@@ -14,7 +14,7 @@ export const SITE_MAP: SiteMap = {
     title: "Home",
   },
   DETAIL: {
-    url: "/detail",
+    url: "/detail/recipe/:id",
     title: "Detail",
   },
   ABOUT: {

@@ -1,13 +1,13 @@
-import { notification } from "antd";
-import { useCallback, useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import { useDispatch, useSelector } from "react-redux";
+import { useState, useCallback } from "react";
+import MenuItem from "./MenuItem";
+import ModalLogin from "../../../Home/components/ModalLogin/ModalLogin";
 import { useNavigate } from "react-router-dom";
 import { SITE_MAP } from "../../../../constants/site-map";
-import { logoutUser } from "../../../../redux/slice/userSlice";
-import ModalLogin from "../../../Home/components/ModalLogin/ModalLogin";
 import ModalRegister from "../../../Home/components/ModalRegister/ModalRegister";
-import MenuItem from "./MenuItem";
+import { useDispatch, useSelector } from "react-redux";
+import { logoutUser } from "../../../../redux/slice/userSlice";
+import { notification } from "antd";
 
 function UserMenu() {
   const dispatch = useDispatch();
@@ -34,9 +34,9 @@ function UserMenu() {
       <div className="flex flex-row items-center gap-3">
         <div
           onClick={() => {}}
-          className="hidden md:block text-sm font-semibold py-3 px-4 rounded-full hover:bg-neutral-100 transition cursor-pointer"
+          className="hidden md:block text-sm font-semibold py-3 px-4 rounded-full hover:bg-neutral-200 transition cursor-pointer"
         >
-          Airbnb yor home
+          FoodBook your home
         </div>
         <div
           onClick={toggleOpen}
@@ -75,18 +75,13 @@ function UserMenu() {
                   }}
                   label="log out"
                 />
-                <MenuItem
+                {/* <MenuItem
                   onClick={() => {
                     navigate(SITE_MAP.ACCOUNT.url)
                   }}
                   label="account"
-                />
-                {/* <MenuItem
-                  onClick={() => {
-                    navigate(SITE_MAP.HISTORY.url)
-                  }}
-                  label="order history"
                 /> */}
+                
               </>
             ) : (
               <>

@@ -1,39 +1,68 @@
 import { Rate } from "antd";
+import { useGetTypeFoodByCategoryQuery } from "../../../../../services/typeFoodService";
+import { useEffect } from "react";
 function ChickenList() {
+  const {
+    data: chickenRecipes,
+    error,
+    isLoading,
+  } = useGetTypeFoodByCategoryQuery("CHICKEN");
+
+  useEffect(() => {
+    if (error) {
+      console.error(error);
+    }
+  }, [error]);
+
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
+  const truncateIntro = (intro:string, wordCount:number) => {
+    const words = intro.split(" ");
+    if (words.length > wordCount) {
+      const truncatedWords = words.slice(0, wordCount);
+      return `${truncatedWords.join(" ")}...`;
+    }
+    return intro;
+  };
   return (
-    <div className="container mx-auto">
-    <div>
-      <h1 className="text-black font-semibold">Our Best Chicken Recipes</h1>
-    </div>
-    <div className="flex flex-row items-center w-[300px] my-5">
-      <div className="flex flex-col items-center justify-between bg-white p-3">
-        <div>
-          <img
-            src="https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/04/honey-garlic-chicken-3370w-600x400.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <div className="bg-black text-white font-semibold w-[140px] p-1">
-            <span>Chinese Take Out</span>
-          </div>
-          <div className="mt-2 font-bold text-lg">
-            <h2>Honey Garlic Chicken</h2>
-          </div>
-          <div className="font-semibold text-sm">
-            rating:4.87 <Rate defaultValue={4}></Rate>
-          </div>
-          <div className="mt-2 tracking-normal text-justify">
-            <p>
-              This is the best 5 ingredient back pocket recipe: sweet and
-              sticky, savory and garlicky, honey garlic chicken. Perfect
-              chicken in 15 minutes.
-            </p>
-          </div>
-        </div>
+    <div className="container mx-auto px-2">
+      <div>
+        <h1 className="text-black font-semibold">Our Best Chicken Recipes</h1>
+      </div>
+      <div className=" flex flex-row gap-[70px] justify-start">
+        {chickenRecipes &&
+          chickenRecipes.map((recipe, index) => (
+            <div
+              key={index}
+              className="flex flex-row items-center w-[300px] my-5"
+            >
+              <div className="flex flex-col items-start justify-between bg-white hover:bg-orange-200 p-3">
+                <div>
+                  <img src={recipe.image} alt="" />
+                </div>
+                <div>
+                  <div className="bg-black text-white font-semibold w-[140px] p-1">
+                    {/*  @ts-ignore*/}
+                    <span>{recipe.topic[0]}</span>
+                  </div>
+                  <div className="mt-2 font-bold text-lg">
+                    <h2>{recipe.name}</h2>
+                  </div>
+                  <div className="font-semibold text-sm">
+                    rating:{recipe.rating} <Rate disabled={true} value={recipe.rating}></Rate>
+                  </div>
+                  <div className="  text-justify">
+                    <p>
+                    {truncateIntro(recipe.intro,5)}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
       </div>
     </div>
-  </div>
   );
 }
 

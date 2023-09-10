@@ -5,7 +5,7 @@ import Vegan from "./Vegan/Vegan";
 
 function RecipesList() {
   return (
-  <div className="bg-[#fafafa] min-h-[2000px] cursor-pointer">
+  <div className="bg-[#fafafa] min-h-[1000px] cursor-pointer">
     <ChickenList/>
     <AirFryer/>
     <Vegan/>

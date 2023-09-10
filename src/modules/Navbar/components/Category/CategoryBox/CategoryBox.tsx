@@ -14,7 +14,7 @@ function CategoryBox(props: ICategoryProps) {
 
   const handleClickHandler = () => {
     const updatedCategory: string | undefined =
-      currentCategory === label ? undefined : label;
+      currentCategory === label.toLowerCase() ? undefined : label;
 
     const searchParams = new URLSearchParams(location.search);
     if (updatedCategory !== undefined) {

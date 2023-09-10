@@ -2,7 +2,7 @@ import Home from '../../modules/Home/Home';
 
 function HomePage() {
     return (
-        <div>
+        <div className='w-full'>
             <Home/>
         </div>
     );
