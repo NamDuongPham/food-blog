@@ -1,4 +1,5 @@
 import { Post } from "../../../../../../types/post";
+import useSpeechRecognition from "../../../../hooks/useSpeechRecognitionHook";
 
 interface PostItem {
     post: Post;
@@ -7,6 +8,11 @@ interface PostItem {
 function PostContent(props:  PostItem) {
 
     const {post} = props
+    const {recognition} = useSpeechRecognition()
+    recognition.stop();  
+    recognition.onend = () => {
+      recognition.stop();
+    };
     return (
         <div>
             <div
