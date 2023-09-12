@@ -4,7 +4,7 @@ export interface TypeFood {
   description: string;
   image: string;
   name: string;
-  topic: [];
+  topic: string[];
   intro: string;
   what: string;
   how: [

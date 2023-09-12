@@ -8,7 +8,7 @@ export const popularApi = createApi({
   baseQuery: baseQueryWithPostService,
   endpoints: (builder) => ({
     getPopularFoods: builder.query<Popular[],void>({
-      query: () => "mostPopulars",
+      query: () => "mostPopulars?_expand=typeFood",
     }),
     getPopularFoodById: builder.query({
       query: (id) => `mostPopulars/${id}`,

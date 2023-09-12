@@ -4,24 +4,13 @@ import { IoIosAdd } from "react-icons/io";
 import courseData from "./data";
 import { BsFilm, BsSpeedometer } from "react-icons/bs";
 import { BiSolidBatteryCharging } from "react-icons/bi";
+import { useTitle } from "../../../hooks/useTitle";
+import { Module, TClass } from "../../../types/class";
 
-type TClass = {
-      name: string;
-      description: string;
-      price: number;
-}
 
-type Module = {
-      moduleTitle: string;
-      lessons: Lesson[];
-}
 
-type Lesson = {
-      lessonTitle: string;
-      topics: string[];
-}
-
-export default function Detail() {
+export default function DetailClass() {
+      useTitle("Detail Class")
       const [data, setData] = useState<TClass>();
       const [onDetail, setOnDetail] = useState(false);
       const [selectedModule, setSelectedModule] = useState<Module | null>(null);

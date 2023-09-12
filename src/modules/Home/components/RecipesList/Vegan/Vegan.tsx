@@ -27,7 +27,7 @@ function Vegan() {
     return intro;
   };
   return (
-    <div className="container mx-auto px-2">
+    <div className=" mx-auto px-2">
       <div>
         <h1 className="text-black font-semibold">Vegan/Vegetarian Recipes</h1>
       </div>

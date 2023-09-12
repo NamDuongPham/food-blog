@@ -1,10 +1,23 @@
 import { useRef, useState } from "react";
 import { AiOutlinePrinter } from "react-icons/ai";
 import ReactToPrint from "react-to-print";
+import { useGetRecipeByFoodIdQuery } from "../../../../../services/recipeService";
+import { TypeFood } from "../../../../../types/food";
+interface IPropsFood {
+  food: TypeFood;
+}
+function Board(props: IPropsFood) {
+  const { food } = props;
 
-function Board() {
-  const [numberServes, setNumberServes] = useState(4);
   const componentRef = useRef(null);
+  console.log(food.id);
+
+  const { data: recipe } = useGetRecipeByFoodIdQuery(food?.id);
+  console.log(recipe);
+  const serves: string = recipe?.[0]?.serves ?? "4";
+  const [numberServes, setNumberServes] = useState<number>(parseInt(serves));
+  console.log(numberServes);
+
   return (
     <div className="bg-[#f8f8f8] my-5" ref={componentRef}>
       <div className="cursor-pointer">
@@ -15,14 +28,14 @@ function Board() {
       </div>
       <div className="flex items-center justify-center p-5">
         <img
-          src="https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/04/honey-garlic-chicken-3370w-500x500.webp"
+          src={recipe?.[0]?.image}
           alt=""
-          className="w-[250px] rounded-[50%]"
+          className="w-[200px] rounded-[50%]"
         />
       </div>
       <div className="flex flex-col items-center justify-center gap-4">
         <h2 className="font-bold text-[25px] text-black">
-          Honey Garlic Chicken
+          {recipe?.[0]?.name}
         </h2>
         <p>The best ingredient back pocket recipe.</p>
       </div>
@@ -30,7 +43,11 @@ function Board() {
         <div className="font-bold">Serves</div>
         <div
           className=" cursor-pointer"
-          onClick={() => setNumberServes(numberServes - 1)}
+          onClick={() => {
+            if (numberServes > 0) {
+              setNumberServes(numberServes - 1);
+            }
+          }}
         >
           -
         </div>
@@ -47,19 +64,19 @@ function Board() {
           <div>
             <div className="flex flex-col gap-2 items-center justify-center">
               <h3 className="font-semibold">Prep Time</h3>
-              <p>10 mins</p>
+              <p>{recipe?.[0]?.prepTime} mins</p>
             </div>
           </div>
           <div>
             <div className="flex flex-col gap-2 items-center justify-center">
               <h3 className="font-semibold">Cook Time</h3>
-              <p>15 mins</p>
+              <p>{recipe?.[0]?.cookTime} mins</p>
             </div>
           </div>
           <div>
             <div className="flex flex-col gap-2 items-center justify-center">
               <h3 className="font-semibold">Total Time</h3>
-              <p>25 mins</p>
+              <p>{recipe?.[0]?.totalTime} mins</p>
             </div>
           </div>
         </div>
@@ -71,10 +88,11 @@ function Board() {
         </div>
         <div>
           <ul className="list-disc flex flex-col gap-6">
-            <li className="mt-5 relative left-10">1 lb chicken of choice</li>
-            <li className="relative left-10">1 lb chicken of choice</li>
-            <li className="relative left-10">1 lb chicken of choice</li>
-            <li className="relative left-10">1 lb chicken of choice</li>
+            {recipe?.[0].ingredients.map((ingrediendents, index) => (
+              <li key={index} className="mt-5 relative left-10">
+                {ingrediendents.name}
+              </li>
+            ))}
           </ul>
         </div>
       </div>
@@ -85,21 +103,11 @@ function Board() {
         </div>
         <div className="mt-5">
           <ol className="list-decimal flex flex-col gap-6">
-            <li className="mt-5 px-5 relative left-5 ">
-              Pat the chicken dry and season all sides with salt and pepper.
-              Heat a skillet over medium high and add a bit of oil. When hot,
-              add the chicken, skin side down if using skin on chicken and cook,
-              until golden and cooked through, flipping as needed. See chart for
-              approximate cook times.
-            </li>
-            <li className="mt-5  px-5 relative left-5">
-              When the chicken is cooked through, push the chicken to one side
-              of the pan and add the garlic and cook, stirring, until soft and
-              fragrant. Stir in the honey, vinegar, and soy sauce and let bubble
-              and simmer, stirring. Coat the chicken in the sauce and let it
-              thicken slightly. Remove from the pan, being sure to scoop up the
-              extra sauce and enjoy!
-            </li>
+            {recipe?.[0].instructions.map((instruc, index) => (
+              <li key={index} className="mt-5 px-5 relative left-5 ">
+                {instruc.step}
+              </li>
+            ))}
           </ol>
         </div>
       </div>
@@ -114,12 +122,12 @@ function Board() {
               <h3 className="font-semibold text-[25px] ">Nutrition Facts</h3>
             </div>
             <div className="my-5">
-              <p>Honey Garlic Chicken</p>
+              <p>{recipe?.[0]?.name}</p>
             </div>
             <div className="bg-[#333] h-[10px] w-full"></div>
             <div className="my-1">
               <p className="font-bold">
-                Calories <span className="font-normal">226</span>
+                Calories <span className="font-normal">{recipe?.[0]?.calories}</span>
               </p>
             </div>
             <div className="bg-[#333] h-[5px] w-full"></div>
@@ -130,35 +138,35 @@ function Board() {
             <div className="my-2 w-full flex flex-col gap-4">
               <div className="flex justify-between items-center">
                 <p className="font-bold">Fat</p>
-                <span className="font-normal">226g</span>
+                <span className="font-normal">{recipe?.[0]?.nutrition.fat}</span>
               </div>
               <div className="flex justify-between items-center">
                 <p className="font-bold">Saturated Fat</p>
-                <span className="font-normal">226g</span>
+                <span className="font-normal">{recipe?.[0]?.nutrition.saturated_fat}</span>
               </div>
               <div className="flex justify-between items-center">
                 <p className="font-bold">Cholesterol</p>
-                <span className="font-normal">226g</span>
+                <span className="font-normal">{recipe?.[0]?.nutrition.cholesterol}</span>
               </div>
               <div className="flex justify-between items-center">
                 <p className="font-bold">sodium</p>
-                <span className="font-normal">226g</span>
+                <span className="font-normal">{recipe?.[0]?.nutrition.sodium}</span>
               </div>
               <div className="flex justify-between items-center">
                 <p className="font-bold">carbohydrates</p>
-                <span className="font-normal">226g</span>
+                <span className="font-normal">{recipe?.[0]?.nutrition.carbohydrates}</span>
               </div>
               <div className="flex justify-between items-center">
                 <p className="font-bold">sugar</p>
-                <span className="font-normal">226g</span>
+                <span className="font-normal">{recipe?.[0]?.nutrition.sugar}</span>
               </div>
               <div className="flex justify-between items-center">
                 <p className="font-bold">fiber</p>
-                <span className="font-normal">226g</span>
+                <span className="font-normal">{recipe?.[0]?.nutrition.fiber}</span>
               </div>
               <div className="flex justify-between items-center">
                 <p className="font-bold">protein</p>
-                <span className="font-normal">226g</span>
+                <span className="font-normal">{recipe?.[0]?.nutrition.protein}</span>
               </div>
             </div>
           </div>

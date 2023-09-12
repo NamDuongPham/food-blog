@@ -2,12 +2,12 @@ import { Route, Routes } from "react-router-dom";
 import { SITE_MAP } from "../constants/site-map";
 import AdminLayout from "../layouts/admin.layout";
 import DefaultLayout from "../layouts/default.layout";
-import HomePage from "../pages/Home/HomePage";
 import BlogPage from "../pages/Blog/BlogPage";
+import HomePage from "../pages/Home/HomePage";
 
-import DetailPage from "../pages/Detail/DetailPage";
+import DetailClass from "../modules/Class/Detail/DetailClass";
 import ClassPage from "../pages/Class/ClassPage";
-import Detail from "../modules/Class/Detail";
+import DetailPage from "../pages/Detail/DetailPage";
 
 
 
@@ -19,7 +19,7 @@ export const Router = () => {
         <Route path={SITE_MAP.BLOG.url} element={<BlogPage />} />
         <Route path={SITE_MAP.DETAIL.url} element={<DetailPage />} />
         <Route path={SITE_MAP.CLASS.url} element={<ClassPage />} />
-        <Route path={SITE_MAP.DETAIL_CLASS.url} element={<Detail />} />
+        <Route path={SITE_MAP.DETAIL_CLASS.url} element={<DetailClass />} />
       </Route>
 
       {/* <-------------layout admin--------------------> */}

@@ -1,7 +1,9 @@
+import { useTitle } from '../../hooks/useTitle';
 import classesFree from './dataClassesFree.json';
 import classesPro from './dataClassesPro.json';
 
 export default function Class() {
+    useTitle("Classes")
     return (
         <div className="px-2 flex-1">
             <h2 className="font-bold text-4xl px-2 py-4" >Classes</h2>
@@ -17,7 +19,7 @@ export default function Class() {
                             name: item.ClassName,
                             description: item.Description,
                             price: 0
-                        }))} className='bg-cyan-700 p-2 text-center rounded-lg text-slate-100' href='/detail-class'>Start</a>
+                        }))} className='bg-cyan-700 p-2 text-center rounded-lg text-slate-100'  href={`/detail-class/${item.ClassName.toLowerCase().replace(' ', '-')}`}>Start</a>
                     </div>
                 )}
             </div>
@@ -33,7 +35,7 @@ export default function Class() {
                             name: item.ClassName,
                             description: item.Description,
                             price: item.Price
-                        }))} className='bg-cyan-700 p-2 text-center rounded-lg text-slate-100' href='/detail-class'>Start</a>
+                        }))} className='bg-cyan-700 p-2 text-center rounded-lg text-slate-100'  href={`/detail-class/${item.ClassName.toLowerCase().replace(' ', '-')}`}>Start</a>
                     </div>
                 )}
             </div>

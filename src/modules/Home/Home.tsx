@@ -1,4 +1,4 @@
-import { useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import Card from "../../components/Card/Card";
 import { useTitle } from "../../hooks/useTitle";
 import { useGetTypeFoodQuery } from "../../services/typeFoodService";
@@ -19,19 +19,23 @@ function Home() {
   useTitle("Home");
   return (
     <>
+      
       {categoryParam ? (
         <div className="flex flex-row gap-5 bg-[#fafafa] h-full">
           {filteredData?.map((card) => (
-            <Card key={card.id} card={card} />
+            <Link to={`/detail/recipe/${card.id}`} key={card.id}>
+            <Card card={card} />
+          </Link>
           ))}
         </div>
       ) : (
         <>
-          <BannerGrid />
+          <BannerGrid/>
           <PopularRecipes />
           <RecipesList />
         </>
       )}
+      
     </>
   );
 }

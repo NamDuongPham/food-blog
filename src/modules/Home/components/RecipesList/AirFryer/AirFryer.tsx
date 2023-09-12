@@ -28,7 +28,7 @@ function AirFryer() {
     return intro;
   };
     return (
-        <div className="container mx-auto px-2">
+        <div className=" mx-auto px-2">
         <div>
           <h1 className="text-black font-semibold">We love our air fryer</h1>
         </div>
