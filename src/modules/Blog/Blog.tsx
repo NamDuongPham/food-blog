@@ -1,12 +1,13 @@
-
+import { useTitle } from "../../hooks/useTitle";
+import PostList from "./components/PostList/PostList";
 
 function Blog() {
-    //
-    return (
-        <div>
-            đây là blg
-        </div>
-    );
+  useTitle("Blog")
+  return (
+    <div>
+      <PostList />
+    </div>
+  );
 }
 
 export default Blog;

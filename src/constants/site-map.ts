@@ -26,7 +26,7 @@ export const SITE_MAP: SiteMap = {
     title: "Cart",
   },
   BLOG: {
-    url: "/blog",
+    url: "/Blog",
     title: "Blog",
 
   },

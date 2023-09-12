@@ -4,10 +4,14 @@ import { setupListeners } from "@reduxjs/toolkit/dist/query";
 import { authApi } from "../services/authService";
 import { userApi } from "../services/userService";
 import { userSettingSlice } from "./slice/userSlice";
+
 import { typeFoodApi } from "../services/typeFoodService";
 import { popularApi } from "../services/popularService";
 import { recipeApi } from "../services/recipeService";
 import { reviewApi } from "../services/reviewService";
+
+import { blogApi } from "../services/blog.service";
+
 
 export const store = configureStore({
   reducer: {
@@ -18,6 +22,8 @@ export const store = configureStore({
     [popularApi.reducerPath]: popularApi.reducer,
     [recipeApi.reducerPath]: recipeApi.reducer,
     [reviewApi.reducerPath]: reviewApi.reducer,
+    [blogApi.reducerPath]: blogApi.reducer,
+
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware()
@@ -27,5 +33,8 @@ export const store = configureStore({
       .concat(popularApi.middleware)
       .concat(recipeApi.middleware)
       .concat(reviewApi.middleware)
+      .concat(blogApi.middleware)
+      .concat(userApi.middleware)
+
 });
 setupListeners(store.dispatch);

@@ -20,6 +20,10 @@ export const baseQueryWithPostService = fetchBaseQuery({
   baseUrl: import.meta.env.VITE_API_URL,
 })
 
+export const baseQueryWithBlogService = fetchBaseQuery({
+  baseUrl: import.meta.env.VITE_API_URL,
+})
+
 // export const baseQuery = async (args: string | FetchArgs, api: BaseQueryApi, extraOptions: {}) => {
 //   const result = await baseQueryWithAuth( args, api, extraOptions );
 //   return result;
