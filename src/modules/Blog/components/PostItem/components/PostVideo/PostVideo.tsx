@@ -1,7 +1,8 @@
-import {  useEffect, useRef, useState} from "react";
-import { Post } from "../../../../../../types/post";
+import { useEffect, useRef, useState } from "react";
 import ReactPlayer from 'react-player';
-import useSpeechRecognition from "../../../../hooks/useSpeechRecognitionHook";
+import useSpeechRecognition from "../../../../../../hooks/useSpeechRecognitionHook";
+import { Post } from "../../../../../../types/post";
+
 
 
 
@@ -48,7 +49,7 @@ function PostVideo(props: PostItemProps) {
         }
       }
     }  
-
+    //@ts-ignore
       recognition.onresult = (event: SpeechRecognitionEvent) => {
         console.log("onresult event: ", event);
         // console.log(event.results[0][0].transcript)

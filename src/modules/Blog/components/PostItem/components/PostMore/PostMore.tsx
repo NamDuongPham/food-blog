@@ -1,5 +1,5 @@
 import { Post } from "../../../../../../types/post";
-import useSpeechRecognition from "../../../../hooks/useSpeechRecognitionHook";
+import useSpeechRecognition from "../../../../../../hooks/useSpeechRecognitionHook";
 
 
 interface PostItemProps {

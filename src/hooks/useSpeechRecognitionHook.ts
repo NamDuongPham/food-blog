@@ -1,10 +1,9 @@
-import { useEffect, useState } from "react";
 
 
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 let recognition: any= null;
 if("webkitSpeechRecognition" in window) {
+    //@ts-ignore
     recognition = new webkitSpeechRecognition();
 recognition.continuous = true;
 recognition.lang = "vi"
