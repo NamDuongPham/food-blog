@@ -1,11 +1,18 @@
+import PostList from "./components/PostList/PostList";
 
 
 function Blog() {
     //
     return (
-        <div>
-            đây là blg
-        </div>
+        
+            <div>
+                 
+                    <PostList/>
+                
+             
+            </div>
+        
+        
     );
 }
 
