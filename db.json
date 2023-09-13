@@ -1,0 +1,4703 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "password": "password123",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "age": 28,
+      "city": "New York",
+      "avatar": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=sph"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "password": "abcd1234",
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "age": 32,
+      "city": "Los Angeles",
+      "avatar": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=sph"
+    },
+    {
+      "id": 3,
+      "username": "mary_johnson",
+      "password": "marypass",
+      "name": "Mary Johnson",
+      "email": "maryjohnson@example.com",
+      "age": 24,
+      "city": "Chicago",
+      "avatar": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=sph"
+    },
+    {
+      "id": 4,
+      "username": "alex_wilson",
+      "password": "alexpass",
+      "name": "Alex Wilson",
+      "email": "alexwilson@example.com",
+      "age": 35,
+      "city": "Houston",
+      "avatar": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=sph"
+    },
+    {
+      "id": 5,
+      "username": "emily_brown",
+      "password": "emilypass",
+      "name": "Emily Brown",
+      "email": "emilybrown@example.com",
+      "age": 29,
+      "city": "San Francisco",
+      "avatar": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=sph"
+    },
+    {
+      "id": 6,
+      "username": "sarah_jackson",
+      "password": "passwordxyz",
+      "name": "Sarah Jackson",
+      "email": "sarahjackson@example.com",
+      "age": 29,
+      "city": "Miami",
+      "avatar": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=sph"
+    },
+    {
+      "id": 7,
+      "username": "william_thompson",
+      "password": "password123",
+      "name": "William Thompson",
+      "email": "williamthompson@example.com",
+      "age": 33,
+      "city": "Seattle",
+      "avatar": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=sph"
+    },
+    {
+      "id": 8,
+      "username": "olivia_anderson",
+      "password": "password456",
+      "name": "Olivia Anderson",
+      "email": "oliviaanderson@example.com",
+      "age": 27,
+      "city": "Boston",
+      "avatar": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=sph"
+    },
+    {
+      "id": 9,
+      "username": "ethan_martinez",
+      "password": "password123",
+      "name": "Ethan Martinez",
+      "email": "ethanmartinez@example.com",
+      "age": 28,
+      "city": "Tokyo",
+      "avatar": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=sph"
+    },
+    {
+      "id": 10,
+      "username": "oliver_wilson",
+      "password": "password123",
+      "name": "Oliver Wilson",
+      "email": "oliverwilson@example.com",
+      "age": 31,
+      "city": "London",
+      "avatar": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=sph"
+    },
+    {
+      "id": 11,
+      "username": "mia_rodriguez",
+      "password": "password456",
+      "name": "Mia Rodriguez",
+      "email": "miarodriguez@example.com",
+      "age": 26,
+      "city": "Sydney",
+      "avatar": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=sph"
+    },
+    {
+      "id": 12,
+      "username": "noah_martinez",
+      "password": "password789",
+      "name": "Noah Martinez",
+      "email": "noahmartinez@example.com",
+      "age": 29,
+      "city": "Mexico City",
+      "avatar": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=sph"
+    },
+    {
+      "id": 13,
+      "username": "ava_rodriguez",
+      "password": "passwordabc",
+      "name": "Ava Rodriguez",
+      "email": "avarodriguez@example.com",
+      "age": 33,
+      "city": "Barcelona",
+      "avatar": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=sph"
+    },
+    {
+      "id": 14,
+      "username": "liam_thomas",
+      "password": "passworddef",
+      "name": "Liam Thomas",
+      "email": "liamthomas@example.com",
+      "age": 27,
+      "city": "Paris",
+      "avatar": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=sph"
+    },
+    {
+      "id": 15,
+      "username": "isabella_garcia",
+      "password": "passwordxyz",
+      "name": "Isabella Garcia",
+      "email": "isabellagarcia@example.com",
+      "age": 30,
+      "city": "Rio de Janeiro",
+      "avatar": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=sph"
+    }
+  ],
+  "posts": [
+    {
+      "timer": [15, 5, 9],
+      "timerDesc": ["Uop thit bo", "Danh trung", "Xao thit voi trung"],
+      "videoURL": "https://www.youtube.com/embed/-fclGXURkvQ",
+      "id": 1,
+      "userId": 1,
+      "title": "Exploring New York's Food Scene",
+      "body": "New York City is a food lover's paradise! I've been trying out various restaurants and food trucks, and the flavors are incredible. From classic New York-style pizza to mouthwatering bagels and diverse international cuisine, there's something for everyone. Don't miss the chance to indulge in the culinary delights of the Big Apple!",
+      "comments": [
+        {
+          "id": 1,
+          "userId": 2,
+          "text": "I absolutely love NYC's food scene too! The pizza slices are enormous and delicious.",
+          "createAt": 1661783700
+        },
+        {
+          "id": 2,
+          "userId": 3,
+          "text": "I recommend trying out the cheesecake at Junior's. It's heavenly!",
+          "createAt": 1661787600
+        }
+      ],
+      "likes": 15,
+      "shares": 5,
+      "photos": [
+        {
+          "id": 1,
+          "url": "https://img.freepik.com/free-photo/typical-hamburger-composition_23-2147695651.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        },
+        {
+          "id": 2,
+          "url": "https://img.freepik.com/free-vector/watercolor-new-york-elements_23-2147531199.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        }
+      ]
+    },
+    {
+      "timer": [15, 5, 9],
+      "timerDesc": ["Uop thit bo", "Danh trung", "Xao thit voi trung"],
+      "videoURL": "https://www.youtube.com/embed/-fclGXURkvQ",
+      "id": 2,
+      "userId": 2,
+      "title": "Exploring Culinary Delights in Italy",
+      "body": "I recently embarked on a culinary adventure in Italy, and it was a feast for the senses. From the rich flavors of authentic pasta dishes to the aromatic herbs and spices used in traditional recipes, Italian cuisine truly captivated my taste buds. The local markets were a treasure trove of fresh ingredients, and the passionate chefs I met shared their culinary expertise with enthusiasm. If you're a food lover, I highly recommend exploring the culinary delights of Italy!",
+      "comments": [
+        {
+          "id": 1,
+          "userId": 3,
+          "text": "Italian food is my absolute favorite! Your description makes me want to book a trip to Italy right away and indulge in all the delicious dishes.",
+          "createAt": 1661783700
+        },
+        {
+          "id": 2,
+          "userId": 4,
+          "text": "The photos of the Italian cuisine look mouthwatering. I can only imagine the incredible flavors and the joy of experiencing them firsthand!",
+          "createAt": 1661787600
+        }
+      ],
+      "likes": 25,
+      "shares": 7,
+      "photos": [
+        {
+          "id": 1,
+          "url": "https://img.freepik.com/free-photo/beautiful-happy-asian-woman-eating-plate-italian-seafood-spaghetti-restaurant-cafe-while_7861-1015.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=sph"
+        },
+        {
+          "id": 2,
+          "url": "https://img.freepik.com/free-photo/stir-fry-spaghetti-put-pork-bowl_1150-24195.jpg?size=626&ext=jpg&ga=GA1.2.1289487096.1690981427&semt=sph"
+        }
+      ]
+    },
+    {
+      "timer": [15, 5, 9],
+      "timerDesc": ["Uop thit bo", "Danh trung", "Xao thit voi trung"],
+      "videoURL": "https://www.youtube.com/embed/-fclGXURkvQ",
+      "id": 3,
+      "userId": 3,
+      "title": "Exploring Tokyo's Street Markets",
+      "body": "Tokyo is famous for its vibrant street markets, and I had the opportunity to explore them recently. The bustling atmosphere, colorful stalls, and delicious street food create an unforgettable experience. From traditional Japanese snacks to trendy fashion items, you can find a wide variety of things in these markets. If you're ever in Tokyo, don't miss the chance to immerse yourself in the energy of the street markets!",
+      "comments": [
+        {
+          "id": 1,
+          "userId": 4,
+          "text": "I love street markets! Tokyo's markets must be incredible with all the unique items they offer.",
+          "createAt": 1661783700
+        },
+        {
+          "id": 2,
+          "userId": 5,
+          "text": "I visited Tokyo last year, and the street markets were definitely a highlight of my trip. So much to see and try!",
+          "createAt": 1661787600
+        }
+      ],
+      "likes": 30,
+      "shares": 10,
+      "photos": [
+        {
+          "id": 1,
+          "url": "https://img.freepik.com/free-photo/woman-shops-food_181624-9107.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        },
+        {
+          "id": 2,
+          "url": "https://img.freepik.com/free-photo/japanese-street-food-restaurant-with-bright-signs_23-2149410167.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        }
+      ]
+    },
+    {
+      "timer": [15, 5, 9],
+      "timerDesc": ["Uop thit bo", "Danh trung", "Xao thit voi trung"],
+      "videoURL": "https://www.youtube.com/embed/-fclGXURkvQ",
+      "id": 4,
+      "userId": 2,
+      "title": "Uncovering Hidden Gems in LA's Food Culture",
+      "body": "Los Angeles is a melting pot of flavors and cultures. I've been exploring the city's food scene and discovering hidden gems. From trendy food trucks to upscale restaurants, LA offers a diverse range of culinary experiences. Whether it's authentic Mexican street tacos or innovative fusion dishes, you're in for a treat!",
+      "comments": [
+        {
+          "id": 3,
+          "userId": 1,
+          "text": "I'm planning a trip to LA soon. Can't wait to try out the food recommendations!",
+          "createAt": 1661791500
+        }
+      ],
+      "likes": 8,
+      "shares": 2,
+      "photos": [
+        {
+          "id": 3,
+          "url": "https://img.freepik.com/free-photo/rice-noodles-bowl-curry-paste-with-chili-cucumber-long-bean-lime-garlic-spring-onion_1150-27067.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        }
+      ]
+    },
+    {
+      "timer": [15, 5, 9],
+      "timerDesc": ["Uop thit bo", "Danh trung", "Xao thit voi trung"],
+      "videoURL": "https://www.youtube.com/embed/-fclGXURkvQ",
+      "id": 5,
+      "userId": 3,
+      "title": "Chicago's Deep-Dish Pizza Delight",
+      "body": "When in Chicago, you can't miss trying the famous deep-dish pizza. I recently had the pleasure of indulging in this cheesy, saucy delight, and it exceeded my expectations. The thick buttery crust, generous toppings, and gooey cheese make it a truly unique pizza experience. Chicago-style deep-dish pizza is a must-try for all pizza lovers!",
+      "comments": [],
+      "likes": 20,
+      "shares": 10,
+      "photos": [
+        {
+          "id": 4,
+          "url": "https://img.freepik.com/free-photo/slice-crispy-pizza-with-meat-cheese_140725-6974.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        }
+      ]
+    },
+    {
+      "timer": [15, 5, 9],
+      "timerDesc": ["Uop thit bo", "Danh trung", "Xao thit voi trung"],
+      "videoURL": "https://www.youtube.com/embed/-fclGXURkvQ",
+      "id": 6,
+      "userId": 3,
+      "title": "Exploring Culinary Delights in Thailand",
+      "body": "I recently embarked on a culinary adventure in Thailand, and it was a gastronomic delight. From the vibrant street food stalls to the aromatic flavors of traditional Thai dishes, the cuisine of Thailand truly amazed my taste buds. The diverse range of ingredients, including fresh herbs, spices, and exotic fruits, created a symphony of flavors in every bite. The local markets were a feast for the senses, and the talented chefs I encountered shared their culinary secrets with passion. If you're a food enthusiast, I highly recommend exploring the culinary treasures of Thailand!",
+      "comments": [
+        {
+          "id": 1,
+          "userId": 4,
+          "text": "Thai cuisine is one of my favorites! Your description has made me crave some authentic Thai food right now.",
+          "createAt": 1661783700
+        },
+        {
+          "id": 2,
+          "userId": 5,
+          "text": "I had the opportunity to try Thai cuisine during my travels, and it was an explosion of flavors. The street food in Thailand is simply amazing!",
+          "createAt": 1661787600
+        }
+      ],
+      "likes": 20,
+      "shares": 8,
+      "photos": [
+        {
+          "id": 1,
+          "url": "https://img.freepik.com/free-photo/asian-people-having-dinner-party_23-2149552651.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        },
+        {
+          "id": 2,
+          "url": "https://img.freepik.com/free-photo/asian-people-having-dinner-party_23-2149552646.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        }
+      ]
+    },
+    {
+      "timer": [15, 5, 9],
+      "timerDesc": ["Uop thit bo", "Danh trung", "Xao thit voi trung"],
+      "videoURL": "https://www.youtube.com/embed/-fclGXURkvQ",
+      "id": 7,
+      "userId": 4,
+      "title": "Indulging in Street Food Delights in Bangkok",
+      "body": "Exploring the vibrant street food scene in Bangkok, Thailand was a culinary adventure like no other. The bustling markets, sizzling woks, and aromatic spices create an irresistible charm. From savory Pad Thai to flavorful Tom Yum soup, the diversity and bold flavors of Thai street food are simply mouthwatering. Sampling exotic fruits, enjoying grilled skewers, and indulging in sweet treats like mango sticky rice were unforgettable experiences. If you're a food lover, a trip to Bangkok is a must to experience the incredible street food delights!",
+      "comments": [
+        {
+          "id": 1,
+          "userId": 5,
+          "text": "I've heard so much about the street food in Bangkok. Your description has made me even more excited to try it!",
+          "createAt": 1661783700
+        },
+        {
+          "id": 2,
+          "userId": 6,
+          "text": "The photos of the street food in Bangkok look incredible. I can't wait to explore the vibrant food scene!",
+          "createAt": 1661787600
+        }
+      ],
+      "likes": 35,
+      "shares": 12,
+      "photos": [
+        {
+          "id": 1,
+          "url": "https://img.freepik.com/free-photo/vertical-shot-person-holding-cronut-ice-cream-prague-czech-republic_181624-8239.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        },
+        {
+          "id": 2,
+          "url": "https://img.freepik.com/free-photo/high-angle-people-with-delicious-food_23-2149929429.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        }
+      ]
+    },
+    {
+      "timer": [15, 5, 9],
+      "timerDesc": ["Uop thit bo", "Danh trung", "Xao thit voi trung"],
+      "videoURL": "https://www.youtube.com/embed/-fclGXURkvQ",
+      "id": 8,
+      "userId": 2,
+      "title": "A Culinary Journey through the Streets of Tokyo",
+      "body": "Embarking on a culinary journey through the vibrant streets of Tokyo, Japan is a feast for the senses. From world-renowned sushi to sizzling yakitori, Tokyo offers an incredible variety of flavors and dining experiences. Exploring the bustling Tsukiji Fish Market, indulging in authentic ramen at local noodle shops, and tasting delicate wagashi sweets are just a few highlights of Tokyo's culinary scene. The city's dedication to quality ingredients and meticulous preparation techniques make every meal a memorable experience. If you're a food lover, Tokyo is a must-visit destination for an unforgettable culinary adventure!",
+      "comments": [
+        {
+          "id": 1,
+          "userId": 4,
+          "text": "I had the pleasure of exploring Tokyo's food scene last year, and it was a gastronomic delight. The sushi there is out of this world!",
+          "createAt": 1661783700
+        },
+        {
+          "id": 2,
+          "userId": 6,
+          "text": "The photos of the food in Tokyo look incredible. I can't wait to try all the delicious dishes!",
+          "createAt": 1661787600
+        }
+      ],
+      "likes": 42,
+      "shares": 15,
+      "photos": [
+        {
+          "id": 1,
+          "url": "https://img.freepik.com/free-photo/full-shot-friends-sitting-table_23-2149356070.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        },
+        {
+          "id": 2,
+          "url": "https://img.freepik.com/free-photo/people-enjoying-traditional-japanese-food_23-2148759596.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        }
+      ]
+    },
+    {
+      "timer": [15, 5, 9],
+      "timerDesc": ["Uop thit bo", "Danh trung", "Xao thit voi trung"],
+      "videoURL": "https://www.youtube.com/embed/-fclGXURkvQ",
+      "id": 9,
+      "userId": 3,
+      "title": "Savoring the Flavors of Istanbul's Culinary Scene",
+      "body": "Savoring the flavors of Istanbul's culinary scene is a delight for food enthusiasts. The city's unique location at the crossroads of Europe and Asia has resulted in a diverse and vibrant food culture. From mouthwatering kebabs and fragrant spices to delectable baklava and Turkish tea, Istanbul offers a wide array of delicious dishes. Exploring the bustling markets, such as the Grand Bazaar, and dining at traditional meyhanes or street food stalls provide unforgettable culinary experiences. The fusion of Ottoman, Mediterranean, and Middle Eastern influences makes Istanbul a haven for food lovers seeking authentic and flavorful cuisine.",
+      "comments": [
+        {
+          "id": 1,
+          "userId": 5,
+          "text": "I had the pleasure of exploring Istanbul's culinary scene last year, and it was a feast for the senses. The flavors and aromas were incredible!",
+          "createAt": 1661783700
+        },
+        {
+          "id": 2,
+          "userId": 7,
+          "text": "Istanbul has always intrigued me, especially when it comes to food. I can't wait to try all the delicious dishes!",
+          "createAt": 1661787600
+        }
+      ],
+      "likes": 35,
+      "shares": 12,
+      "photos": [
+        {
+          "id": 1,
+          "url": "https://img.freepik.com/free-photo/side-view-girls-eat-dolma-cabbage-rolls-with-yogurt_140725-11476.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        },
+        {
+          "id": 2,
+          "url": "https://img.freepik.com/free-photo/view-different-delicious-mexican-dishes-rusty-background_23-2148042512.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        }
+      ]
+    },
+    {
+      "timer": [15, 5, 9],
+      "timerDesc": ["Uop thit bo", "Danh trung", "Xao thit voi trung"],
+      "videoURL": "https://www.youtube.com/embed/-fclGXURkvQ",
+      "id": 10,
+      "userId": 3,
+      "title": "Exploring Culinary Delights: A Gastronomic Journey",
+      "body": "Embark on a culinary adventure and indulge your taste buds in a gastronomic journey like no other. From savoring exotic street food in bustling markets to dining at Michelin-starred restaurants, the world of food offers a myriad of flavors and experiences. Taste the delicate balance of flavors in a traditional Japanese sushi, savor the aromatic spices of Indian cuisine, or delight in the rich, creamy texture of French pastries. Whether you're a food enthusiast or simply looking to expand your palate, this gastronomic journey will leave you craving for more.",
+      "comments": [
+        {
+          "id": 1,
+          "userId": 5,
+          "text": "I'm a food lover, and this sounds like a dream come true! I can't wait to embark on my own gastronomic journey and explore different cuisines.",
+          "createdAt": 1661783700
+        },
+        {
+          "id": 2,
+          "userId": 7,
+          "text": "Food is such a universal language that connects people from all walks of life. I've had some unforgettable culinary experiences during my travels, and I highly recommend others to do the same!",
+          "createdAt": 1661787600
+        }
+      ],
+      "likes": 28,
+      "shares": 9,
+      "photos": [
+        {
+          "id": 1,
+          "url": "https://img.freepik.com/free-photo/high-angle-friends-holding-chopsticks_23-2149957054.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        },
+        {
+          "id": 2,
+          "url": "https://img.freepik.com/free-photo/people-enjoying-pizza-together-outdoors_23-2150610314.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        }
+      ]
+    },
+    {
+      "timer": [15, 5, 9],
+      "timerDesc": ["Uop thit bo", "Danh trung", "Xao thit voi trung"],
+      "videoURL": "https://www.youtube.com/embed/-fclGXURkvQ",
+      "id": 11,
+      "userId": 2,
+      "title": "Savoring Exquisite Cuisine in Paris",
+      "body": "Paris, the gastronomic capital of France, offers a delightful array of culinary experiences. From charming cafes to Michelin-starred restaurants, the city caters to all taste buds. Indulge in traditional French delicacies like escargots, foie gras, and coq au vin, paired with a glass of fine French wine. Don't miss out on the delectable pastries, such as croissants and macarons, found in every corner patisserie. Whether it's dining at a quaint bistro or savoring gourmet cuisine, Paris promises a gastronomic journey like no other.",
+      "comments": [
+        {
+          "id": 1,
+          "userId": 4,
+          "text": "I had the most amazing dining experience in Paris. The flavors, presentation, and ambiance were all top-notch!",
+          "createdAt": 1661784000
+        },
+        {
+          "id": 2,
+          "userId": 6,
+          "text": "Parisian cuisine surpassed all my expectations. The combination of ingredients and attention to detail made each dish a work of art.",
+          "createdAt": 1661787900
+        }
+      ],
+      "likes": 52,
+      "shares": 18,
+      "photos": [
+        {
+          "id": 1,
+          "url": "https://img.freepik.com/free-photo/side-view-salmon-steak-with-potato-rural-pomegranate-sauce-salt-glass-wine-table_141793-3678.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        },
+        {
+          "id": 2,
+          "url": "https://img.freepik.com/free-photo/western-woman-having-teatime-cafe-udaipur_53876-65359.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        }
+      ]
+    },
+    {
+      "timer": [15, 5, 9],
+      "timerDesc": ["Uop thit bo", "Danh trung", "Xao thit voi trung"],
+      "videoURL": "https://www.youtube.com/embed/-fclGXURkvQ",
+      "id": 12,
+      "userId": 4,
+      "title": "Tasting Authentic Greek Cuisine in Santorini",
+      "body": "Santorini, the mesmerizing island in Greece, not only offers breathtaking views but also a rich culinary experience. Discover the flavors of traditional Greek cuisine while enjoying the island's enchanting atmosphere. Feast on fresh seafood delicacies like grilled octopus, stuffed vine leaves (dolmades), and moussaka. Don't forget to try the famous Greek salad with juicy tomatoes, creamy feta cheese, and Kalamata olives. Pair your meal with a glass of local Assyrtiko wine, known for its crispness and unique volcanic character. A culinary journey in Santorini promises to tantalize your taste buds and leave you craving for more.",
+      "comments": [
+        {
+          "id": 1,
+          "userId": 5,
+          "text": "The food in Santorini was a delightful surprise. The flavors of Greek cuisine are truly exceptional!",
+          "createdAt": 1661784000
+        },
+        {
+          "id": 2,
+          "userId": 7,
+          "text": "I can't get enough of the delicious Greek dishes I had in Santorini. Each bite was a burst of Mediterranean flavors!",
+          "createdAt": 1661787900
+        }
+      ],
+      "likes": 48,
+      "shares": 15,
+      "photos": [
+        {
+          "id": 1,
+          "url": "https://img.freepik.com/free-photo/woman-having-salad-meal-restaurant_53876-42685.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        },
+        {
+          "id": 2,
+          "url": "https://img.freepik.com/free-photo/side-view-woman-bathrobe-having-breakfast-outside-morning_176474-3902.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        }
+      ]
+    },
+    {
+      "timer": [15, 5, 9],
+      "timerDesc": ["Uop thit bo", "Danh trung", "Xao thit voi trung"],
+      "videoURL": "https://www.youtube.com/embed/-fclGXURkvQ",
+      "id": 13,
+      "userId": 6,
+      "title": "Savoring Culinary Delights in the Maldives",
+      "body": "In addition to its stunning natural beauty, the Maldives offers a remarkable dining experience that combines exotic flavors with breathtaking views. Indulge in a variety of seafood dishes, including freshly caught fish, succulent prawns, and flavorful lobster. The Maldivian cuisine also features aromatic spices and tropical fruits, creating a unique blend of tastes. Whether you choose to dine at an underwater restaurant, enjoy a beachside barbecue, or savor a romantic dinner on a private sandbank, the Maldives promises a gastronomic adventure in paradise.",
+      "comments": [
+        {
+          "id": 1,
+          "userId": 4,
+          "text": "The dining experience in the Maldives was beyond extraordinary. The combination of flavors and the stunning ocean backdrop made it truly unforgettable!",
+          "createdAt": 1661784000
+        },
+        {
+          "id": 2,
+          "userId": 6,
+          "text": "I've never tasted seafood as fresh and delicious as in the Maldives. The culinary journey was a highlight of my trip!",
+          "createdAt": 1661787900
+        }
+      ],
+      "likes": 65,
+      "shares": 23,
+      "photos": [
+        {
+          "id": 1,
+          "url": "https://img.freepik.com/free-photo/floating-breakfast-amazing-hotel-villa-blue-swimming-pool_343596-1037.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        },
+        {
+          "id": 2,
+          "url": "https://img.freepik.com/free-photo/tanned-woman-holding-sweet-pineapple-cocktail-female-model-posing-during-lunch-pool_197531-20896.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        }
+      ]
+    },
+    {
+      "timer": [15, 5, 9],
+      "timerDesc": ["Uop thit bo", "Danh trung", "Xao thit voi trung"],
+      "videoURL": "https://www.youtube.com/embed/-fclGXURkvQ",
+      "id": 14,
+      "userId": 8,
+      "title": "Tasting Traditional Japanese Cuisine in Kyoto",
+      "body": "Immerse yourself in the rich culinary traditions of Kyoto, where food is considered an art form. Kyoto is renowned for its kaiseki cuisine, a multi-course meal that showcases seasonal and meticulously prepared dishes. Indulge in delicate sashimi, flavorsome tempura, and beautifully presented sushi. Don't miss the opportunity to try Kyoto's specialty dishes like yudofu (tofu hot pot) and matcha-flavored sweets. Pair your meal with a cup of fragrant green tea, a staple of Japanese culture. A culinary journey in Kyoto promises to tantalize your taste buds and provide a deeper understanding of Japanese gastronomy.",
+      "comments": [
+        {
+          "id": 1,
+          "userId": 5,
+          "text": "The kaiseki dining experience in Kyoto was a feast for the senses. Each dish was a work of art, and the flavors were simply exquisite!",
+          "createdAt": 1661784000
+        },
+        {
+          "id": 2,
+          "userId": 8,
+          "text": "Kyoto's traditional cuisine is a culinary masterpiece. The attention to detail and the harmony of flavors left me in awe!",
+          "createdAt": 1661787900
+        }
+      ],
+      "likes": 57,
+      "shares": 18,
+      "photos": [
+        {
+          "id": 1,
+          "url": "https://img.freepik.com/free-photo/close-up-people-with-delicious-food_23-2149008716.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        },
+        {
+          "id": 2,
+          "url": "https://img.freepik.com/free-photo/medium-shot-man-woman-table_23-2149008755.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        }
+      ]
+    },
+    {
+      "timer": [15, 5, 9],
+      "timerDesc": ["Uop thit bo", "Danh trung", "Xao thit voi trung"],
+      "videoURL": "https://www.youtube.com/embed/-fclGXURkvQ",
+      "id": 15,
+      "userId": 10,
+      "title": "Savoring Greek Delights in Santorini",
+      "body": "In addition to its breathtaking beauty, Santorini offers a culinary journey that celebrates the flavors of Greece. Indulge in the vibrant and fresh Mediterranean cuisine while overlooking the stunning views of the Aegean Sea. Taste traditional Greek dishes such as moussaka, souvlaki, and spanakopita, made with local ingredients and authentic recipes. Don't forget to sample the famous Santorinian tomatoes and fava beans, known for their exceptional taste. Pair your meal with a glass of local Assyrtiko wine, produced from grapes grown in volcanic soil. A culinary exploration in Santorini is a feast for the senses.",
+      "comments": [
+        {
+          "id": 1,
+          "userId": 5,
+          "text": "The Greek cuisine in Santorini was a delightful experience. The flavors were fresh and vibrant, and the scenic backdrop made it even more special!",
+          "createdAt": 1661784000
+        },
+        {
+          "id": 2,
+          "userId": 7,
+          "text": "I couldn't get enough of the delicious Greek food in Santorini. Every meal was a celebration of flavors and a true reflection of the island's culinary heritage!",
+          "createdAt": 1661787900
+        }
+      ],
+      "likes": 73,
+      "shares": 28,
+      "photos": [
+        {
+          "id": 1,
+          "url": "https://img.freepik.com/free-photo/beach-scene-with-drinks-food_23-2147642624.jpg?size=626&ext=jpg&ga=GA1.1.1289487096.1690981427&semt=ais"
+        },
+        {
+          "id": 2,
+          "url": "https://img.freepik.com/free-photo/picnic-blanket-with-goodies-disinfectant-hands_1268-15623.jpg?size=626&ext=jpg&ga=GA1.2.1289487096.1690981427&semt=ais"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 2,
+      "text": "I absolutely love NYC's food scene too! The pizza slices are enormous and delicious.",
+      "createAt": 1661783700
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "userId": 3,
+      "text": "I recommend trying out the cheesecake at Junior's. It's heavenly!",
+      "createAt": 1661787600
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "userId": 3,
+      "text": "Italian food is my absolute favorite! Your description makes me want to book a trip to Italy right away and indulge in all the delicious dishes.",
+      "createAt": 1661783700
+    },
+    {
+      "id": 4,
+      "postId": 2,
+      "userId": 4,
+      "text": "The photos of the Italian cuisine look mouthwatering. I can only imagine the incredible flavors and the joy of experiencing them firsthand!",
+      "createAt": 1661787600
+    },
+    {
+      "id": 5,
+      "postId": 3,
+      "userId": 4,
+      "text": "I love street markets! Tokyo's markets must be incredible with all the unique items they offer.",
+      "createAt": 1661783700
+    },
+    {
+      "id": 6,
+      "postId": 3,
+      "userId": 5,
+      "text": "I visited Tokyo last year, and the street markets were definitely a highlight of my trip. So much to see and try!",
+      "createAt": 1661787600
+    },
+    {
+      "id": 7,
+      "postId": 4,
+      "userId": 1,
+      "text": "I'm planning a trip to LA soon. Can't wait to try out the food recommendations!",
+      "createAt": 1661791500
+    },
+    {
+      "id": 8,
+      "postId": 4,
+      "userId": 4,
+      "text": "Thai cuisine is one of my favorites! Your description has made me crave some authentic Thai food right now.",
+      "createAt": 1661783700
+    },
+    {
+      "id": 9,
+      "postId": 5,
+      "userId": 5,
+      "text": "I had the opportunity to try Thai cuisine during my travels, and it was an explosion of flavors. The street food in Thailand is simply amazing!",
+      "createAt": 1661787600
+    },
+    {
+      "id": 10,
+      "postId": 5,
+      "userId": 5,
+      "text": "I've heard so much about the street food in Bangkok. Your description has made me even more excited to try it!",
+      "createAt": 1661783700
+    },
+    {
+      "id": 11,
+      "postId": 6,
+      "userId": 6,
+      "text": "The photos of the street food in Bangkok look incredible. I can't wait to explore the vibrant food scene!",
+      "createAt": 1661787600
+    },
+    {
+      "id": 12,
+      "postId": 6,
+      "userId": 4,
+      "text": "I had the pleasure of exploring Tokyo's food scene last year, and it was a gastronomic delight. The sushi there is out of this world!",
+      "createAt": 1661783700
+    },
+    {
+      "id": 13,
+      "postId": 7,
+      "userId": 6,
+      "text": "The photos of the food in Tokyo look incredible. I can't wait to try all the delicious dishes!",
+      "createAt": 1661787600
+    },
+
+    {
+      "id": 14,
+      "postId": 7,
+      "userId": 5,
+      "text": "I had the pleasure of exploring Istanbul's culinary scene last year, and it was a feast for the senses. The flavors and aromas were incredible!",
+      "createAt": 1661783700
+    },
+    {
+      "id": 15,
+      "postId": 8,
+      "userId": 7,
+      "text": "Istanbul has always intrigued me, especially when it comes to food. I can't wait to try all the delicious dishes!",
+      "createAt": 1661787600
+    },
+
+    {
+      "id": 16,
+      "postId": 8,
+      "userId": 5,
+      "text": "I'm a food lover, and this sounds like a dream come true! I can't wait to embark on my own gastronomic journey and explore different cuisines.",
+      "createdAt": 1661783700
+    },
+    {
+      "id": 17,
+      "postId": 9,
+      "userId": 7,
+      "text": "Food is such a universal language that connects people from all walks of life. I've had some unforgettable culinary experiences during my travels, and I highly recommend others to do the same!",
+      "createdAt": 1661787600
+    },
+    {
+      "id": 18,
+      "postId": 10,
+      "userId": 6,
+      "text": "Parisian cuisine surpassed all my expectations. The combination of ingredients and attention to detail made each dish a work of art.",
+      "createdAt": 1661787900
+    },
+    {
+      "id": 19,
+      "postId": 10,
+      "userId": 5,
+      "text": "The food in Santorini was a delightful surprise. The flavors of Greek cuisine are truly exceptional!",
+      "createdAt": 1661784000
+    },
+    {
+      "id": 20,
+      "postId": 11,
+      "userId": 7,
+      "text": "I can't get enough of the delicious Greek dishes I had in Santorini. Each bite was a burst of Mediterranean flavors!",
+      "createdAt": 1661787900
+    },
+    {
+      "id": 21,
+      "postId": 11,
+      "userId": 4,
+      "text": "The dining experience in the Maldives was beyond extraordinary. The combination of flavors and the stunning ocean backdrop made it truly unforgettable!",
+      "createdAt": 1661784000
+    },
+    {
+      "id": 22,
+      "postId": 11,
+      "userId": 4,
+      "text": "I had the most amazing dining experience in Paris. The flavors, presentation, and ambiance were all top-notch!",
+      "createdAt": 1661784000
+    },
+    {
+      "id": 23,
+      "postId": 12,
+      "userId": 6,
+      "text": "I've never tasted seafood as fresh and delicious as in the Maldives. The culinary journey was a highlight of my trip!",
+      "createdAt": 1661787900
+    },
+    {
+      "id": 24,
+      "postId": 12,
+      "userId": 5,
+      "text": "The kaiseki dining experience in Kyoto was a feast for the senses. Each dish was a work of art, and the flavors were simply exquisite!",
+      "createdAt": 1661784000
+    },
+
+    {
+      "id": 25,
+      "postId": 13,
+      "userId": 8,
+      "text": "Kyoto's traditional cuisine is a culinary masterpiece. The attention to detail and the harmony of flavors left me in awe!",
+      "createdAt": 1661787900
+    },
+    {
+      "id": 26,
+      "postId": 13,
+      "userId": 5,
+      "text": "The Greek cuisine in Santorini was a delightful experience. The flavors were fresh and vibrant, and the scenic backdrop made it even more special!",
+      "createdAt": 1661784000
+    },
+    {
+      "id": 27,
+      "postId": 13,
+      "userId": 7,
+      "text": "I couldn't get enough of the delicious Greek food in Santorini. Every meal was a celebration of flavors and a true reflection of the island's culinary heritage!",
+      "createdAt": 1661787900
+    }
+  ],
+
+  "typeFoods": [
+    {
+      "id": 1,
+      "rating": 4.5,
+      "category": "CHICKEN",
+      "name": "Honey Garlic Chicken",
+      "topic": ["Chinese Take Out", "Chicken recipes"],
+      "intro": "Sweet and sticky, savory and garlicky, honey garlic chicken is always the answer.",
+      "description": "This is the best 5 ingredient back pocket recipe. Honey garlic is my jam: I can eat it on literally everything, including toast. It’s one of the easiest most flavorful sauces you can make at home and is a definite crowd pleaser.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/04/honey-garlic-chicken-3370w-2048x1366.webp",
+      "what": "If you’re reading all this and wondering, what is Honey Garlic Chicken, I got you! Honey Garlic Chicken is a delicious dish made with tender chicken pieces coated in a sweet and savory sauce made from honey, garlic, and other seasonings. It is a popular dish in many cuisines, known for its flavorful combination of sticky sweetness and garlicky goodness. Honey Garlic Chicken is often served with steamed rice or noodles and is enjoyed as a main course. Its mouthwatering taste and irresistible aroma make it a favorite choice for chicken lovers.",
+      "how": [
+        {
+          "name": "Cook the chicken.",
+          "use": "Lightly pat your chicken dry, season it on all sides with salt and pepper then cook it in a pan with a bit of oil. When it’s cooked through, it’s time to add the garlic."
+        },
+        {
+          "name": "Cook the garlic",
+          "use": " Add the garlic to the pan (add a bit of oil if the pan is dry) and cook until it’s soft but not brown and smells amazingly garlicky."
+        },
+        {
+          "name": "Add the sauce",
+          "use": " mild, pure, 100% clover honey is what I reach for when cooking so the flavors don’t overwhelm the dish. Because we’re cooking the honey you don’t need raw honey, save that for your tea, toast, or oatmeal."
+        },
+        {
+          "name": "Enjoy",
+          "use": "Remove the chicken from the pan along with all the sauce and enjoy!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rating": 4,
+      "category": "CHICKEN",
+      "name": "Sweet and Sour Chicken",
+      "topic": ["Chinese Food", "Baked Chicken Recipes", "Dinner"],
+      "intro": "Baked sweet and sour chicken",
+      "description": "Baking your chicken isn’t quite the same as deep frying, but for the lack of effort it takes, it’s amazing. The chicken ends up juicy with the slightest bit of crispiness thanks to a cornstarch coating. Besides no cleanup, no expensive oil to throw away, and no splatter, this is also way better for you, so you can feel good about eating it every night, and you’re going to want to. It tastes just as good as the deep fried version with none of the guilt.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2019/11/easy-sweet-sour-chicken-recipe-8851w-2048x1366.webp",
+      "what": "Sweet and Sour Chicken is a popular Chinese dish made with chicken that is coated in a sweet and sour sauce. It is often served with rice or noodles. The chicken is typically cut into bite-sized pieces and coated in a batter made from flour, cornstarch, and eggs. The sauce is made from a combination of vinegar, sugar, ketchup, and spices.",
+      "how": [
+        {
+          "name": "Prepare the chicken.",
+          "use": "Cut the chicken breast into bite-sized pieces and season with salt and pepper. Dredge the chicken in the batter and set aside."
+        },
+        {
+          "name": "Make the sauce.",
+          "use": "In a saucepan, combine the vinegar, sugar, ketchup, soy sauce, cornstarch, and water. Bring to a boil, then reduce heat and simmer for 5 minutes, or until the sauce has thickened."
+        },
+        {
+          "name": "Bake the chicken.",
+          "use": "Preheat oven to 375 degrees F (190 degrees C). Spread the chicken in a single layer on a baking sheet and bake for 15-20 minutes, or until cooked through. Pour the sauce over the chicken and bake for an additional 5 minutes, or until the sauce is bubbly."
+        },
+        {
+          "name": "Enjoy!",
+          "use": "Serve the chicken with rice or noodles and enjoy!"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "rating": 4.7,
+      "category": "PASTA/NOODLES",
+      "name": "Singapore Noodles",
+      "topic": ["Chinese Take Out", "Noodles recipes", "Easy"],
+      "intro": "Everything you ever wanted to know about how to make the best Singapore noodles",
+      "description": "This is a delicious and easy recipe for Singapore noodles. It's made with thin rice noodles, shrimp, chicken, egg, and vegetables that are stir-fried in a flavorful curry sauce. The noodles are cooked until they are soft and tender, and the vegetables are crisp-tender. The sauce is rich and flavorful, and it perfectly complements the other ingredients. This dish is sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2023/01/singapore-noodles-8932w-1536x1025.webp",
+      "what": "Singapore Noodles is a stir-fried rice noodle dish flavored with curry powder. It is a popular dish in Hong Kong and in Chinese restaurants around the world. Singapore noodles are also a common takeout/delivery dish in America.",
+      "how": [
+        {
+          "name": "Cook the noodles.",
+          "use": "Cook the noodles according to the package directions. Drain the noodles and set aside."
+        },
+        {
+          "name": "Prepare the vegetables.",
+          "use": "Chop the carrots, bell peppers, and onions into thin strips. Mince the garlic and ginger."
+        },
+        {
+          "name": "Make the sauce.",
+          "use": "In a small bowl, whisk together the curry powder, soy sauce, oyster sauce, fish sauce, sugar, and cornstarch. Set aside."
+        },
+        {
+          "name": "Stir-fry the vegetables.",
+          "use": "Heat a large skillet or wok over medium-high heat. Add the oil and cook the garlic and ginger for 1 minute, or until fragrant. Add the carrots, bell peppers, and onions and cook for 5 minutes, or until softened. Remove from the heat and set aside."
+        },
+        {
+          "name": "Stir-fry the noodles.",
+          "use": "Return the skillet or wok to medium-high heat. Add the chicken and cook for 2-3 minutes, or until cooked through. Add the shrimp and cook for 1 minute, or until pink. Add the noodles and sauce and cook for 2-3 minutes, or until the noodles are heated through and the sauce has thickened. Serve immediately."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "rating": 4.7,
+      "category": "PASTA/NOODLES",
+      "name": "Scallion Noodles",
+      "topic": ["Chinese Noodles", "10 Ingredients or less", "Chinese Food"],
+      "intro": "The quickest, easiest, and most delicious noodle dish you can make.",
+      "description": "This is a delicious and easy recipe for scallion noodles. It's made with thin rice noodles, scallions, and a simple soy sauce dressing. The noodles are cooked until they are soft and tender, and the scallions are stir-fried until they are fragrant. The dressing is made with soy sauce, sesame oil, and sugar. This dish is sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2022/04/scallion-oil-noodles-1537w-1536x1025.webp",
+      "what": "Scallion Noodles is a stir-fried rice noodle dish with scallions. It is a popular dish in Chinese cuisine and is often served as a side dish or light meal.",
+      "how": [
+        {
+          "name": "Cook the noodles.",
+          "use": "Cook the noodles according to the package directions. Drain the noodles and rinse them with cold water. Set aside."
+        },
+        {
+          "name": "Prepare the scallions.",
+          "use": "Trim the scallions and cut them into thin strips. Heat the oil in a large skillet or wok over medium heat. Add the scallions and cook for 2-3 minutes, or until softened and fragrant. Remove from the heat and set aside."
+        },
+        {
+          "name": "Make the dressing.",
+          "use": "In a small bowl, whisk together the soy sauce, sesame oil, and sugar. Add the dressing to the noodles and scallions and toss to combine. Serve immediately."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "rating": 4.2,
+      "category": "QUARANTINE COOKING",
+      "name": "Mexican Rice",
+      "topic": [
+        "Mexico Food",
+        "10 Ingredients or less",
+        "30 minutes or less",
+        "Easy",
+        "How to",
+        "Sides"
+      ],
+      "intro": "A flavorful and easy-to-make Mexican rice dish made with long-grain rice, tomatoes, onions, and spices.",
+      "description": "This is a delicious and easy recipe for Mexican rice. It's made with long-grain rice, tomatoes, onions, garlic, and spices. The rice is cooked until it is soft and fluffy, and the tomatoes and onions add a touch of sweetness and acidity. The spices give the rice a warm and flavorful flavor. This dish is sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2019/09/how-to-make-mexican-rice-6509w-1536x1024.webp",
+      "what": "Mexican Rice is a classic side dish in Mexican cuisine, typically made with long-grain rice cooked in a tomato-based broth with onions, garlic, and spices such as cumin and chili powder, giving it a beautiful reddish-orange hue.",
+      "how": [
+        {
+          "name": "Toast the rice.",
+          "use": "Heat the oil in a large skillet or saucepan over medium heat. Add the rice and cook for 2-3 minutes, or until the rice is lightly browned. Be careful not to burn the rice."
+        },
+        {
+          "name": "Sauté the onions.",
+          "use": "Add the onions to the skillet and cook for 2-3 minutes, or until softened. Add the garlic and cook for 1 minute more."
+        },
+        {
+          "name": "Add the tomatoes.",
+          "use": "Add the tomatoes, tomato paste, and spices to the skillet and cook for 5 minutes, or until the tomatoes have softened and the spices have bloomed. Stir in the chicken broth."
+        },
+        {
+          "name": "Bring to a boil.",
+          "use": "Bring the mixture to a boil, then reduce heat to low, cover, and simmer for 20 minutes, or until the rice is cooked through and the liquid has been absorbed."
+        },
+        {
+          "name": "Fluff and serve.",
+          "use": "Fluff the rice with a fork and serve immediately."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "rating": 5,
+      "category": "QUARANTINE COOKING",
+      "name": "Instant Pot Pasta and Meatballs",
+      "topic": ["One pot wonders", "Dinner", "Instant Pot Recipes", "pasta"],
+      "intro": "A quick and easy pasta dish cooked in an Instant Pot with meatballs, marinara sauce, and cheese.",
+      "description": "This is a delicious and easy recipe for Instant Pot pasta and meatballs. It's made with meatballs, marinara sauce, pasta, and cheese. The meatballs are cooked in the Instant Pot, and the pasta and sauce are added in later. The whole dish is cooked in just minutes, and it's sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/02/instant-pot-meatballs-1426w-1536x1024.webp",
+      "what": "Instant Pot Pasta and Meatballs is a dish of pasta cooked in an Instant Pot with meatballs and marinara sauce. It is a popular dish in many households, as it is quick and easy to make.",
+      "how": [
+        {
+          "name": "Cook the meatballs.",
+          "use": "In a large bowl, combine the ground beef, breadcrumbs, egg, Parmesan cheese, Italian seasoning, salt, and pepper. Mix well to combine. Roll the mixture into meatballs. Heat the oil in a large skillet over medium heat. Add the meatballs and cook for 5-7 minutes per side, or until browned on all sides. Set aside."
+        },
+        {
+          "name": "Cook the pasta.",
+          "use": "Pour the marinara sauce into the Instant Pot. Add the pasta and meatballs. Close the lid and seal the valve. Cook on high pressure for 5 minutes. Let the pressure release naturally for 10 minutes, then quick release any remaining pressure. Stir in the Parmesan cheese and serve immediately."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "rating": 3.7,
+      "category": "AIR FRYER",
+      "name": "Air Fryer Steak",
+      "topic": ["Air Fryer Recipes", "Steak recipes", "Easy"],
+      "intro": "Juicy and tender steak cooked to perfection in an air fryer.",
+      "description": "This is a delicious and easy recipe for air fryer steak. It's made with a boneless, skinless steak that is cooked until it is juicy and tender. The steak is seasoned with salt, pepper, and garlic powder. It is cooked in an air fryer for 10-12 minutes, or until cooked to your desired doneness. This dish is sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/03/air-fryer-steak-1592w-2-1536x1025.webp",
+      "what": "Air Fryer Steak is a dish of steak cooked in an air fryer. It is a popular dish in many households, as it is quick and easy to make.",
+      "how": [
+        {
+          "name": "Season the steak.",
+          "use": "Season the steak with salt, pepper, and garlic powder."
+        },
+        {
+          "name": "Cook the steak.",
+          "use": "Preheat the air fryer to 400 degrees F (200 degrees C). Place the steak in the air fryer basket and cook for 10-12 minutes, or until cooked to your desired doneness."
+        },
+        {
+          "name": "Enjoy!",
+          "use": "Remove the steak from the air fryer and let it rest for 5 minutes before slicing and serving."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "rating": 4.4,
+      "category": "AIR FRYER",
+      "name": "Air Fryer Potatoes",
+      "topic": [
+        "Air Fryer Recipes",
+        "Potatoes recipes",
+        "30 minutes or less",
+        "basics"
+      ],
+      "intro": "Crispy and golden potatoes cooked using an air fryer for a healthier option.",
+      "description": "This is a delicious and easy recipe for air fryer potatoes. It's made with potatoes that are cut into wedges and cooked until they are crispy and golden brown. The potatoes are seasoned with salt, pepper, and garlic powder. They are cooked in an air fryer for 20-25 minutes, or until cooked to your desired doneness. This dish is sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/03/air-fryer-potatoes-1561w-1536x1025.webp",
+      "what": "Air Fryer Potatoes is a dish of potatoes cooked in an air fryer. It is a popular dish in many households, as it is quick and easy to make and healthier than frying potatoes in oil.",
+      "how": [
+        {
+          "name": "Prepare the potatoes.",
+          "use": "Preheat the air fryer to 400 degrees F (200 degrees C). Cut the potatoes into wedges."
+        },
+        {
+          "name": "Season the potatoes.",
+          "use": "Season the potatoes with salt, pepper, and garlic powder."
+        },
+        {
+          "name": "Cook the potatoes.",
+          "use": "Place the potatoes in the air fryer basket and cook for 20-25 minutes, or until cooked to your desired doneness."
+        },
+        {
+          "name": "Enjoy!",
+          "use": "Serve immediately."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "rating": 4.9,
+      "category": "AIR FRYER",
+      "name": "Air Fryer Chicken Wings",
+      "topic": [
+        "Air Fryer Recipes",
+        "Chicken recipes",
+        "basics",
+        "30 minutes or less"
+      ],
+      "intro": "Crispy and flavorful chicken wings cooked to perfection in an air fryer.",
+      "description": "This is a delicious and easy recipe for air fryer chicken wings. It's made with chicken wings that are seasoned with salt, pepper, and your favorite spices. They are cooked in an air fryer for 20-25 minutes, or until cooked to your desired doneness. This dish is sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/09/air-fryer-chicken-wings-5931w-2-1536x1024.webp",
+      "what": "Air Fryer Chicken Wings is a dish of chicken wings cooked in an air fryer. It is a popular dish in many households, as it is quick and easy to make and healthier than frying chicken wings in oil.",
+      "how": [
+        {
+          "name": "Prepare the chicken wings.",
+          "use": "Preheat the air fryer to 400 degrees F (200 degrees C). Wash and pat dry the chicken wings."
+        },
+        {
+          "name": "Season the chicken wings.",
+          "use": "Season the chicken wings with salt, pepper, and your favorite spices."
+        },
+        {
+          "name": "Cook the chicken wings.",
+          "use": "Place the chicken wings in the air fryer basket and cook for 20-25 minutes, or until cooked to your desired doneness."
+        },
+        {
+          "name": "Enjoy!",
+          "use": "Serve immediately with your favorite dipping sauce."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "rating": 4.1,
+      "category": "AIR FRYER",
+      "name": "Air Fryer Char Siu",
+      "topic": [
+        "Air Fryer Recipes",
+        "Chinese Take Out",
+        "Dinner",
+        "Easy",
+        "10 Ingredients or less"
+      ],
+      "intro": "How an air fryer can make the best char siu in less than 10 minutes.",
+      "description": "This is a delicious and easy recipe for air fryer char siu. It's made with pork that is marinated in a sweet and savory sauce and cooked in an air fryer until it is crispy on the outside and tender on the inside. This dish is sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/05/air-fryer-char-siu-2848w-1024x683.jpg",
+      "what": "Air Fryer Char Siu is a dish of pork that is marinated in a sweet and savory sauce and cooked in an air fryer. It is a popular dish in many households, as it is quick and easy to make and healthier than deep-frying the pork.",
+      "how": [
+        {
+          "name": "Prepare the pork.",
+          "use": "Cut the pork into thin strips."
+        },
+        {
+          "name": "Marinate the pork.",
+          "use": "In a bowl, combine the soy sauce, honey, hoisin sauce, oyster sauce, garlic powder, ginger powder, and black pepper. Add the pork strips to the marinade and stir to coat. Marinate for at least 30 minutes, or up to overnight."
+        },
+        {
+          "name": "Cook the pork.",
+          "use": "Preheat the air fryer to 400 degrees F (200 degrees C). Place the pork strips in the air fryer basket and cook for 8-10 minutes, or until cooked through and crispy."
+        },
+        {
+          "name": "Enjoy!",
+          "use": "Serve immediately with your favorite dipping sauce."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "rating": 4.7,
+      "category": "BREAKFAST/BRUNCH",
+      "name": "Keto Soufflé Pancakes",
+      "topic": ["Keto recipes", "Japanese sweets", "pancakes"],
+      "intro": "Fluffy and airy pancakes made with Japanese milk and eggs.",
+      "description": "This is a delicious and easy recipe for Keto Soufflé Pancakes. It's made with Japanese milk, eggs, and sugar. The batter is whipped until it is light and airy, and the pancakes are cooked until they are golden brown and fluffy. This dish is sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2019/02/japanese-fluffy-pancakes-recipe-7077w-2.jpg",
+      "what": "Keto Soufflé Pancakes are a type of pancake that is made with whipped egg whites. This gives the pancakes their signature fluffy and airy texture. They are typically made with Japanese milk and eggs, which gives them a richer flavor.",
+      "how": [
+        {
+          "name": "Prepare the batter.",
+          "use": "In a bowl, whisk together the flour, sugar, baking powder, and salt."
+        },
+        {
+          "name": "In a separate bowl, whisk together the eggs and milk until well combined."
+        },
+        {
+          "name": "Pour the egg mixture into the flour mixture and whisk until just combined."
+        },
+        {
+          "name": "Whisk the egg whites until stiff peaks form.",
+          "use": "Be careful not to over whisk, or the egg whites will become dry."
+        },
+        {
+          "name": "Fold the egg whites into the batter.",
+          "use": "Do this gently, so as not to deflate the egg whites."
+        },
+        {
+          "name": "Cook the pancakes.",
+          "use": "Heat a non-stick pan over medium heat. Add a small amount of butter or oil to the pan. Pour 1/4 cup of batter onto the pan for each pancake. Cook for 2-3 minutes per side, or until golden brown."
+        },
+        {
+          "name": "Enjoy!",
+          "use": "Serve immediately with your favorite toppings, such as whipped cream, fruit, or syrup."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "rating": 4.3,
+      "category": "BREAKFAST/BRUNCH",
+      "name": "Avocado Bread",
+      "topic": ["Breakfast", "Brunch", "Bread recipes"],
+      "intro": "Avocado-infused bread that is moist and flavorful.",
+      "description": "This is a delicious and easy recipe for avocado bread. It's made with avocados, flour, sugar, baking powder, baking soda, salt, eggs, and milk. The avocados add a moist and flavorful touch to the bread. This dish is sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2015/09/avocado-bread-6.jpg",
+      "what": "Avocado Bread is a type of bread that is made with avocados. The avocados add a moist and flavorful touch to the bread. They are typically made with all-purpose flour, sugar, baking powder, baking soda, salt, eggs, and milk.",
+      "how": [
+        {
+          "name": "Preheat the oven to 350 degrees F (175 degrees C). Grease and flour a 9x5 inch loaf pan."
+        },
+        {
+          "name": "In a large bowl, mash the avocados until smooth."
+        },
+        {
+          "name": "Add the flour, sugar, baking powder, baking soda, and salt to the avocado mixture and mix until just combined."
+        },
+        {
+          "name": "Whisk the eggs and milk together and add to the avocado mixture. Mix until just combined."
+        },
+        {
+          "name": "Pour the batter into the prepared loaf pan and bake for 50-60 minutes, or until a toothpick inserted into the center comes out clean."
+        },
+        {
+          "name": "Let the bread cool in the pan for 10 minutes before removing to a wire rack to cool completely."
+        },
+        {
+          "name": "Enjoy!",
+          "use": "Serve with your favorite toppings, such as butter, jam, or avocado toast."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "rating": 4.2,
+      "category": "INSTANT POT",
+      "name": "Instant Pot Chili",
+      "topic": ["Instant Pot Recipes", "Easy", "group beef recipes"],
+      "intro": "Hearty and flavorful chili made quickly in an Instant Pot.",
+      "description": "This is a delicious and easy recipe for Instant Pot chili. It's made with ground beef, beans, tomatoes, chili powder, and other spices. The chili is cooked in an Instant Pot, which makes it quick and easy to make. This dish is sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/09/instant-pot-chili-7148w.jpg",
+      "what": "Instant Pot Chili is a type of chili that is cooked in an Instant Pot. This makes it quick and easy to make, as the Instant Pot can cook the chili under pressure in a fraction of the time it would take to cook it on the stovetop.",
+      "how": [
+        {
+          "name": "Sauté the ground beef.",
+          "use": "In the Instant Pot, brown the ground beef over medium heat. Drain off any excess grease."
+        },
+        {
+          "name": "Add the beans, tomatoes, chili powder, and other spices.",
+          "use": "Add the beans, tomatoes, chili powder, cumin, garlic powder, onion powder, salt, and pepper to the Instant Pot. Stir to combine."
+        },
+        {
+          "name": "Cook the chili.",
+          "use": "Close the lid of the Instant Pot and seal the valve. Cook on high pressure for 30 minutes."
+        },
+        {
+          "name": "Let the chili cool slightly.",
+          "use": "Let the chili cool slightly before serving."
+        },
+        {
+          "name": "Enjoy!",
+          "use": "Serve with your favorite toppings, such as shredded cheese, sour cream, and avocado."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "rating": 5,
+      "category": "INSTANT POT",
+      "name": "Instant Pot Dishoom Ruby Chicken Curry",
+      "topic": [
+        "30 minutes or less",
+        "Dinner",
+        "Easy",
+        "gadgets",
+        "indian food",
+        "One pot wonders",
+        "Recipes"
+      ],
+      "intro": "Tender chicken cooked in a rich and aromatic curry sauce using an Instant Pot.",
+      "description": "This is a delicious and easy recipe for Instant Pot Dishoom Ruby Chicken Curry. It's made with chicken thighs, tomatoes, onions, ginger, garlic, spices, and coconut milk. The curry is cooked in an Instant Pot, which makes it quick and easy to make. This dish is sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/05/instant-pot-ruby-chicken-curry-3049w.jpg",
+      "what": "Instant Pot Dishoom Ruby Chicken Curry is a type of curry that is cooked in an Instant Pot. It is a popular dish in India, and it is made with chicken thighs, tomatoes, onions, ginger, garlic, spices, and coconut milk. The curry is cooked in an Instant Pot, which makes it quick and easy to make.",
+      "how": [
+        {
+          "name": "Sauté the onions and ginger.",
+          "use": "In the Instant Pot, sauté the onions and ginger over medium heat until softened."
+        },
+        {
+          "name": "Add the chicken and spices.",
+          "use": "Add the chicken, turmeric powder, coriander powder, cumin powder, garam masala, and salt to the Instant Pot. Stir to combine."
+        },
+        {
+          "name": "Add the tomatoes and coconut milk.",
+          "use": "Add the tomatoes and coconut milk to the Instant Pot. Stir to combine."
+        },
+        {
+          "name": "Cook the curry.",
+          "use": "Close the lid of the Instant Pot and seal the valve. Cook on high pressure for 15 minutes."
+        },
+        {
+          "name": "Let the curry cool slightly.",
+          "use": "Let the curry cool slightly before serving."
+        },
+        {
+          "name": "Enjoy!",
+          "use": "Serve with your favorite rice or naan."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "rating": 4.4,
+      "category": "INSTANT POT",
+      "name": "Instant Pot Pho",
+      "topic": [
+        "Instant Pot Recipes",
+        "Vietnamese food",
+        "Dinner",
+        "meat",
+        "Recipes",
+        "soup"
+      ],
+      "intro": "A flavorful and hearty Vietnamese noodle soup made in an Instant Pot.",
+      "description": "This is a delicious and easy recipe for Instant Pot pho. It's made with beef bones, water, spices, and herbs. The pho is cooked in an Instant Pot, which makes it quick and easy to make. This dish is sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2017/11/authentic-instant-pot-pho-recipe-1959w.jpg",
+      "what": "Instant Pot Pho is a type of Vietnamese noodle soup that is made in an Instant Pot. It is a popular dish in Vietnam, and it is made with beef bones, water, spices, and herbs. The pho is cooked in an Instant Pot, which makes it quick and easy to make.",
+      "how": [
+        {
+          "name": "Sauté the spices.",
+          "use": "In the Instant Pot, sauté the star anise, cloves, cinnamon stick, and ginger over medium heat until fragrant."
+        },
+        {
+          "name": "Add the beef bones and water.",
+          "use": "Add the beef bones and water to the Instant Pot. Bring to a boil over high heat."
+        },
+        {
+          "name": "Close the lid and seal the valve.",
+          "use": "Close the lid of the Instant Pot and seal the valve. Cook on high pressure for 1 hour."
+        },
+        {
+          "name": "Let the pho cool slightly.",
+          "use": "Let the pho cool slightly before adding the noodles and herbs."
+        },
+        {
+          "name": "Serve!",
+          "use": "Serve the pho with your favorite noodles and herbs."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "rating": 4.7,
+      "category": "INSTANT POT",
+      "name": "Instant Pot Osso Buco",
+      "topic": ["Instant Pot Recipes", "Italian food", "beef recipes", "Easy"],
+      "intro": "Fall-off-the-bone osso buco made in an Instant Pot for a quick and easy meal.",
+      "description": "This is a delicious and easy recipe for Instant Pot osso buco. It's made with veal shanks, tomatoes, onions, carrots, celery, wine, and spices. The osso buco is cooked in an Instant Pot, which makes it quick and easy to make. This dish is sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/01/osso-buco-1840w-1024x683.jpg",
+      "what": "Instant Pot Osso Buco is a type of Italian stew that is made in an Instant Pot. It is a popular dish in Italy, and it is made with veal shanks, tomatoes, onions, carrots, celery, wine, and spices. The osso buco is cooked in an Instant Pot, which makes it quick and easy to make.",
+      "how": [
+        {
+          "name": "Season the veal shanks.",
+          "use": "Season the veal shanks with salt and pepper."
+        },
+        {
+          "name": "Sauté the vegetables.",
+          "use": "In the Instant Pot, sauté the onions, carrots, and celery over medium heat until softened."
+        },
+        {
+          "name": "Add the veal shanks and wine.",
+          "use": "Add the veal shanks, wine, tomatoes, and spices to the Instant Pot. Stir to combine."
+        },
+        {
+          "name": "Close the lid and seal the valve.",
+          "use": "Close the lid of the Instant Pot and seal the valve. Cook on high pressure for 60 minutes."
+        },
+        {
+          "name": "Let the osso buco rest.",
+          "use": "Let the osso buco rest for 10 minutes before serving."
+        },
+        {
+          "name": "Enjoy!",
+          "use": "Serve the osso buco with your favorite pasta or risotto."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "rating": 4.8,
+      "category": "TACOS",
+      "name": "Crunchwrap Supreme",
+      "topic": ["Tacos", "mexican food", "restaurant recipes"],
+      "intro": "A tortilla filled with ground beef, nacho cheese, sour cream, tomatoes, lettuce, and a fried egg.",
+      "description": "This is a delicious and easy recipe for Crunchwrap Supreme. It's made with a flour tortilla, ground beef, nacho cheese, sour cream, tomatoes, lettuce, and a fried egg. The tortilla is then folded in half and grilled until golden brown. This dish is sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/crunchwrap-4443w-2048x1366.webp",
+      "what": "Crunchwrap Supreme is a type of taco that is made with a flour tortilla, ground beef, nacho cheese, sour cream, tomatoes, lettuce, and a fried egg. It is a popular dish at Taco Bell.",
+      "how": [
+        {
+          "name": "Cook the ground beef.",
+          "use": "In a skillet, cook the ground beef over medium heat until browned. Drain off any excess grease."
+        },
+        {
+          "name": "Assemble the crunchwrap.",
+          "use": "Place a flour tortilla on a plate. Spread the nacho cheese on the tortilla. Top with the ground beef, sour cream, tomatoes, lettuce, and a fried egg."
+        },
+        {
+          "name": "Fold the tortilla in half.",
+          "use": "Fold the tortilla in half, so that the filling is enclosed."
+        },
+        {
+          "name": "Grill the crunchwrap.",
+          "use": "Heat a skillet over medium heat. Place the crunchwrap in the skillet and cook until golden brown on both sides."
+        },
+        {
+          "name": "Enjoy!",
+          "use": "Serve the crunchwrap immediately."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "rating": 4.79,
+      "category": "Tacos",
+      "name": "Crunchwrap Supreme",
+      "topic": [
+        "Easy",
+        "Dinner",
+        "gadgets",
+        "meat",
+        "Recipes",
+        "restaurant recipes"
+      ],
+      "intro": "A tortilla filled with ground beef, nacho cheese, sour cream, tomatoes, lettuce, and a fried egg.",
+      "description": "This is a delicious and easy recipe for Crunchwrap Supreme. It's made with a flour tortilla, ground beef, nacho cheese, sour cream, tomatoes, lettuce, and a fried egg. The tortilla is then folded in half and grilled until golden brown. This dish is sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/06/crunchwrap-4443w-2048x1366.webp",
+      "what": "Crunchwrap Supreme is a type of taco that is made with a flour tortilla, ground beef, nacho cheese, sour cream, tomatoes, lettuce, and a fried egg. It is a popular dish at Taco Bell.",
+      "how": [
+        {
+          "name": "Cook the ground beef.",
+          "use": "In a skillet, cook the ground beef over medium heat until browned. Drain off any excess grease."
+        },
+        {
+          "name": "Assemble the crunchwrap.",
+          "use": "Place a flour tortilla on a plate. Spread the nacho cheese on the tortilla. Top with the ground beef, sour cream, tomatoes, lettuce, and a fried egg."
+        },
+        {
+          "name": "Fold the tortilla in half.",
+          "use": "Fold the tortilla in half, so that the filling is enclosed."
+        },
+        {
+          "name": "Grill the crunchwrap.",
+          "use": "Heat a skillet over medium heat. Place the crunchwrap in the skillet and cook until golden brown on both sides."
+        },
+        {
+          "name": "Enjoy!",
+          "use": "Serve the crunchwrap immediately."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "rating": 4.0,
+      "category": "BREAKFAST/BRUNCH",
+      "name": "Trader Joes Kimbap Review +Recipe",
+      "topic": ["Korean food", "beef recipes", "How to"],
+      "intro": "A Korean dish of rice, vegetables, and meat rolled in seaweed and sliced into bite-sized pieces.",
+      "description": "This is a delicious and easy recipe for kimbap. It's made with cooked rice, pickled vegetables, carrots, ham, and eggs. The ingredients are rolled in seaweed and sliced into bite-sized pieces. This dish is sure to be a hit with your family and friends.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2023/08/kimbap-3018w.jpg",
+      "what": "Kimbap is a Korean dish of rice, vegetables, and meat rolled in seaweed and sliced into bite-sized pieces. It is a popular Korean dish enjoyed for its combination of flavors and textures.",
+      "how": [
+        {
+          "name": "Cook the rice.",
+          "use": "Cook the rice according to the package directions."
+        },
+        {
+          "name": "Prepare the vegetables.",
+          "use": "Chop the carrots, cucumber, and ham into thin strips."
+        },
+        {
+          "name": "Make the filling.",
+          "use": "In a bowl, combine the cooked rice, vegetables, ham, and eggs."
+        },
+        {
+          "name": "Roll the kimbap.",
+          "use": "Place a sheet of seaweed on a bamboo mat. Spread a thin layer of the filling on the seaweed. Roll up the seaweed, starting from the bottom."
+        },
+        {
+          "name": "Slice the kimbap.",
+          "use": "Use a sharp knife to slice the kimbap into bite-sized pieces."
+        },
+        {
+          "name": "Enjoy!",
+          "use": "Serve the kimbap with your favorite dipping sauce."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "rating": 4.2,
+      "category": "GLUTEN-FREE",
+      "name": "Teriyaki Chicken",
+      "topic": [
+        "Japanese food",
+        "Chicken breast recipes",
+        "Chicken thigh recipes"
+      ],
+      "intro": "Tantalizing Teriyaki Chicken, a classic Japanese dish, features tender chicken marinated in a sweet and savory teriyaki sauce.",
+      "description": "This is a delicious and easy recipe for teriyaki chicken. It's made with chicken breast, teriyaki sauce, and sesame seeds. The chicken is grilled or pan-seared to perfection, resulting in juicy and flavorful meat. The teriyaki chicken is often garnished with sesame seeds and green onions, adding an extra layer of aroma and presentation. Served with a bed of steamed rice and steamed vegetables, this dish offers a delightful balance of flavors and textures, making it a favorite among Japanese cuisine enthusiasts.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/12/teriyaki-chicken-8201w.jpg",
+      "what": "Teriyaki Chicken is a Japanese dish of chicken that is marinated in a sweet and savory sauce and then grilled or pan-seared. It is a popular dish in Japan and is often served with rice and vegetables.",
+      "how": [
+        {
+          "name": "Marinate the chicken.",
+          "use": "In a bowl, combine the chicken, teriyaki sauce, and sesame oil. Marinate for at least 30 minutes, or up to overnight."
+        },
+        {
+          "name": "Grill or pan-sear the chicken.",
+          "use": "Heat a grill or pan over medium heat. Cook the chicken for 5-7 minutes per side, or until cooked through."
+        },
+        {
+          "name": "Garnish with sesame seeds and green onions.",
+          "use": "Garnish the chicken with sesame seeds and green onions before serving."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "rating": 4.4,
+      "category": "Tips",
+      "topic": ["tips"],
+      "name": "Why you shouldn’t refrigerate your tomatoes",
+      "description": "A sun-ripe, juicy tomato is one of nature’s jewels. They’re literally bursting: sweet, tart, and umami flavors flood your taste buds when you bite into them. For maximum flavor, you should never refrigerate your tomatoes.",
+      "price": 0,
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2023/08/refrigerate-tomatoes-2938w.jpg",
+      "what": "A sun-ripe, juicy tomato is one of nature’s jewels. They’re literally bursting: sweet, tart, and umami flavors flood your taste buds when you bite into them. For maximum flavor, you should never refrigerate your tomatoes",
+      "how": [
+        {
+          "name": "Store tomatoes at room temperature.",
+          "use": "Store tomatoes at room temperature, away from direct sunlight."
+        },
+        {
+          "name": "Do not wash tomatoes before storing them.",
+          "use": "Do not wash tomatoes before storing them. The water will make the tomatoes more susceptible to rot."
+        },
+        {
+          "name": "If you must wash the tomatoes, do it just before you eat them.",
+          "use": "If you must wash the tomatoes, do it just before you eat them."
+        },
+        {
+          "name": "Do not store tomatoes in a sealed container.",
+          "use": "Do not store tomatoes in a sealed container. This will trap moisture and cause the tomatoes to rot."
+        },
+        {
+          "name": "If you need to store tomatoes for longer than a few days, place them in a single layer in a paper bag and store them in the refrigerator.",
+          "use": "If you need to store tomatoes for longer than a few days, place them in a single layer in a paper bag and store them in the refrigerator."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "rating": 5,
+      "category": "Vegan",
+      "name": "Vegetable Yakitori",
+      "topic": ["Vegatable", "Japanese food", "vegatarian recipes"],
+      "intro": "If you love grilled vegetables, you’re going to love Japanese grilled vegetable yakitori.",
+      "description": "If you’ve been to Japan, you’ve most likely have indulged in yakitori: smoky, tender, juicy skewers of grilled chicken either dipped in a savory sauce or sprinkled with salt. Yakitori is the ultimate food.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2023/04/vegetable-yakitori-0799w-1024x683.jpg",
+      "what": "Yakitori is Japan’s answer to grilled chicken. Yakitori is bite-size pieces of chicken threaded onto skewers and grilled over binchotan, a special Japanese charcoal that gets extra hot. The skewers come seasoned with salt (shio) or sauce (tare).",
+      "how": [
+        {
+          "name": "Japanese eggplant",
+          "use": " wash, dry, then trim the tips and tails. Cut the eggplant into 2.5-3 inch lengths. Cut each section in half, then cut the halves into thirds. Thread the eggplant onto skewers with 4 pieces per skewer."
+        },
+        {
+          "name": "zucchini",
+          "use": "wash, dry, and trim the tips and tails. Cut the zucchini into 2.5-3 inch lengths. Cut each section in half, then cut the halves into thirds. Thread the zucchini onto skewers with 4 pieces per skewer"
+        },
+        {
+          "name": "king oyster mushrooms",
+          "use": "wash, dry, and trim the bottom of the mushroom. Cut the mushroom into equal lengths, making sure to keep the mushroom cap intact with some stem. Cut the mushroom lengths into quarter wedges. Thread the mushrooms onto skewers with 4 pieces per skewer"
+        },
+        {
+          "name": "bell pepper",
+          "use": "wash dry, and deseed the peppers. Cut into 2 inch by 3/4 inch strips. Thread the peppers onto skewers with 8 pieces per skewer."
+        },
+        {
+          "name": "Enjoy!",
+          "use": "Serve the crunchwrap immediately."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "rating": 4.5,
+      "category": "Vegan",
+      "name": "The Ultimate Guide to Seitan",
+      "topic": ["Vegatable", "Secret ingrediant", "basics"],
+      "intro": "Seitan is a super versatile vegan protein made from vital wheat gluten. It’s what’s used to make vegan chicken, aka fake chicken, and doesn’t that lead image look just like chicken?",
+      "description": "If you’re vegan, or maybe even if you’re not but you’ve been peeping on viral cooking Tiktoks, I’m sure you’ve heard of seitan. These days, many people call it fake chicken because it’s made from flour.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/03/seitan-2232w-1024x683.jpg",
+      "what": "Seitan is wheat gluten. Essentially, it’s food made from gluten, the protein found in wheat. The commonly used name, seitan, is Japanese (セイタン) which implies that it was invented in Japan, but wheat gluten first appeared in China in the 6th century.",
+      "how": [
+        {
+          "name": "Make the dough",
+          "use": "Mix together 1 cup vital wheat gluten with 1/4 cup chickpea flour. Add some seasonings and stir in 1 cup of water or vegetable broth."
+        },
+        {
+          "name": "Knead the dough",
+          "use": "Knead the dough for 5-10 minutes so it develops strands of gluten – this is what gives seitan its meaty texture."
+        },
+        {
+          "name": "Let it rest",
+          "use": "Let the dough rest, covered for about 5 minutes so the gluten can relax."
+        },
+        {
+          "name": "Simmer",
+          "use": "Cut the dough into 4 (or more pieces), shape and simmer on low in a flavorful broth."
+        },
+        {
+          "name": "Use it in recipes!",
+          "use": "Your seitan is cooked and ready to eat! You can eat it as is, or use it in recipes where you would use meat."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "rating": 4.5,
+      "category": "Vegan",
+      "name": "Honeynut Squash",
+      "topic": ["Vegatable", "recipes", "diner"],
+      "intro": "Move over butternut, it’s time to meet your new favorite squash!",
+      "description": "Do you like butternut squash but sometimes think it’s a bit too big? If so, super sweet and personal-sized honeynut squash is here to save the day! If you’ve ever seen a what looks like a tiny version of a butternut squash you’re lucky enough to have spotted a honeynut in the wild! Honeynuts are cousins to butternuts, but trust me when I say, they’re so much better.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2018/12/honeynut-squash-3667w-1024x683.jpg",
+      "what": "Have you guys heard of honeynut squash? I’ve seen it floating around on menus and the internet, but the first time I saw one in real life was at a farmer’s. It felt so special – apparently I’m nerdy like that. Honeynuts are kind of rare, like a unicorn squash: they’re are on their way to being sold in all the grocery stores, but right now they’re still kind of a farmers’ market and specialty store kind of thing.",
+      "how": [
+        {
+          "name": "Heat the oven",
+          "use": "Heat the oven to 425°F. We’re going for high heat so that the squash can caramelize and become soft and tender."
+        },
+        {
+          "name": "Halve the honeynut squash.",
+          "use": "Wash and dry the honeynuts then use a large sharp knife to cut them in half lengthwise from stem to base. Use a spoon to scoop out the seeds and pulpy insides."
+        },
+        {
+          "name": "Roast",
+          "use": " Drizzle the cut sides with a bit of oil and season generously with salt and pepper. Roast, skin side up on foil lined baking sheet for 20-30 minutes (depending on size) or until fork tender."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "rating": 4.5,
+      "category": "Vegan",
+      "name": "Best Sesame Soy Broccoli Salad",
+      "topic": ["Vegatable", "broccoli"],
+      "intro": "Hello broccoli salad! Broccoli salad with a sweet and tangy dressing is my new go to for summer parties. Is spoonable, super healthy, and simply delicious.",
+      "description": "When you’re trying to eat healthier but want something more substantial than a leafy green salad, broccoli salad is there for you. I love the crunch and heft of broccoli, especially when it’s cut up into bite size spoonable pieces. Some people aren’t into raw broccoli, but I love it! I always go for the raw broccoli on those vegetable platters that seem to be at every potluck/party you go to.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2019/05/sesame-soy-broccoli-salad-3855w-2-1024x683.jpg",
+      "what": "A super hearty, filling salad full of fresh crisp raw broccoli plus a bunch of other delicious things tossed in a sweet and tangy dressing. Broccoli salad is perfect because unlike a lot of other salads, it actually gets better when it’s made ahead of time. This makes it perfect for meal prep and bbqs. I especially love THIS broccoli salad because unlike a lot of the broccoli salads out there it’s not mayonnaise or cream based making it last longer and keep better. Plus, it’s healthier!",
+      "how": [
+        {
+          "name": "Wash and chop",
+          "use": "Give your broccoli a good wash and cut it into tiny bite size florets and drain well."
+        },
+        {
+          "name": "Whisk",
+          "use": "In a small bowl, whisk together soy sauce, rice vinegar, oil, toasted sesame oil, a pinch of sugar, and pepper to taste."
+        },
+        {
+          "name": "Toss",
+          "use": "Toss the broccoli, along with diced red onions, raisins, and almonds in the dressing."
+        },
+        {
+          "name": "Chill",
+          "use": "Enjoy right away or chill. Finish with toasted sesame seeds before eating!"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "category": "Easy",
+      "name": "Birria Tacos Recipe",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/05/homemade-birria-tacos-recipe-3273w-1536x1025.webp",
+      "rating": 4.69,
+      "intro": "Birria tacos are so good you’ll be making them every week.",
+      "description": "While birria is traditionally made with goat, for most of us it’s easier to get beef so that’s what I’ve gone with here. Beef is also the safer choice for crowds, but if you’re an adventurous eater and want to go with goat, you should totally go(at) for it. The recipe remains the same, just switch out the beef shank and sirloin for goat.",
+      "what": "Birria is traditionally a spicy and super savory Mexican beef or goat stew that’s slow cooked until the meat is tender and fall-apart juicy and delicious. Someone had the amazing idea to stuff this meaty goodness into a taco shell, and then dip the whole thing into the stew and fry it up. These birria tacos blew up after that, and the rest is history.",
+      "how": [
+        {
+          "name": "Soak the peppers",
+          "use": " Bring a pot of water to a boil and then take it off the heat, soak the dried peppers while you do the next steps."
+        },
+        {
+          "name": "Season the meat.",
+          "use": "While you wait for the peppers to soak, cube up the roast and season the meat with salt and pepper"
+        },
+        {
+          "name": "Make the marinade.",
+          "use": "Throw together everything left except the cloves, bay leaves, and cinnamon into a blender. Remove the peppers from the now warm water and let them get cool enough to handle. "
+        },
+        {
+          "name": "Make the stew. ",
+          "use": "Saute the onions. Onions are the base of all flavor, so make sure they are extra delicious – transparent and golden. Take your time. Then add the meats, cover with chicken stock, and add the last few spices. That’s all there is to it!"
+        },
+        {
+          "name": "Marinate the beef overnight.",
+          "use": "Two hours is good enough too, but longer is always better when it comes to stews."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "category": "One Pot Wonders",
+      "name": "Best Paella Ever",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2012/07/paella-9181w-2048x1366.webp",
+      "rating": 4.7,
+      "intro": "Paella even has its own emoji 🥘 – it NEEDS to be made and eaten.",
+      "description": "Paella is a traditional Spanish dish made with rice, seafood, meat, and vegetables. It is typically cooked in a large pan called a paella pan.",
+      "what": "Paella is a hearty and flavorful dish that is perfect for a crowd. It is also relatively easy to make, making it a great option for a weeknight meal.",
+      "how": [
+        {
+          "name": "Soak the rice",
+          "use": "Bring a pot of water to a boil and then take it off the heat, soak the rice while you do the next steps."
+        },
+        {
+          "name": "Heat the oil",
+          "use": "Heat the oil in a large paella pan over medium heat. Add the onion and cook until softened, about 5 minutes."
+        },
+        {
+          "name": "Add the garlic",
+          "use": "Add the garlic and cook for 1 minute more."
+        },
+        {
+          "name": "Add the chicken",
+          "use": "Add the chicken and cook until browned on all sides."
+        },
+        {
+          "name": "Add the vegetables",
+          "use": "Add the vegetables and cook until softened, about 5 minutes."
+        },
+        {
+          "name": "Add the rice",
+          "use": "Add the rice and stir to coat with the oil and vegetables."
+        },
+        {
+          "name": "Add the broth",
+          "use": "Add the broth and bring to a boil. Reduce heat to low, cover, and simmer for 20 minutes, or until the rice is cooked through."
+        },
+        {
+          "name": "Add the seafood",
+          "use": "Add the seafood and cook until cooked through, about 5 minutes."
+        },
+        {
+          "name": "Season to taste",
+          "use": "Season with salt and pepper to taste."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "category": "Japanese Food",
+      "name": "Takoyaki",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2012/07/takoyaki-recipe-4792w-1024x683.webp",
+      "rating": 4.8,
+      "intro": "Takoyaki is a Japanese savory ball-shaped snack made of a wheat flour-based batter and cooked in a special molded pan.",
+      "description": "Takoyaki is a popular street food in Japan and is made with a batter of wheat flour, eggs, dashi stock, and other ingredients. The batter is poured into a special takoyaki pan, which has molds in the shape of balls. The balls are then cooked over a high heat until they are golden brown.",
+      "what": "Takoyaki is typically filled with octopus, pickled ginger, and green onion. It can also be filled with other ingredients, such as cheese, squid, or shrimp.",
+      "how": [
+        {
+          "name": "Prepare the batter",
+          "use": "In a bowl, whisk together the wheat flour, eggs, dashi stock, and water until smooth. Add the salt and pepper to taste."
+        },
+        {
+          "name": "Cook the takoyaki",
+          "use": "Heat the takoyaki pan over medium heat. Add a small amount of oil to each mold. Pour a small amount of batter into each mold."
+        },
+        {
+          "name": "Add the fillings",
+          "use": "Add a piece of octopus, pickled ginger, and green onion to each ball of batter."
+        },
+        {
+          "name": "Cook the takoyaki",
+          "use": "Cook the takoyaki for 2-3 minutes per side, or until golden brown. Serve immediately with your favorite dipping sauce."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "category": "Easy",
+      "name": "TikTok Baked Feta Pasta",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/03/baked-feta-pasta-0974w-1024x683.jpg",
+      "rating": 4.9,
+      "intro": "A viral recipe for baked feta pasta that is simple to make and delicious to eat.",
+      "description": "TikTok Baked Feta Pasta is a dish that has become popular on the social media platform TikTok. The dish is made with feta cheese, pasta, tomatoes, and a variety of other ingredients. It is typically baked in the oven until the cheese is melted and bubbly.",
+      "what": "TikTok Baked Feta Pasta is a quick and easy dish that is perfect for a weeknight meal. It is also a great way to use up leftover feta cheese.",
+      "how": [
+        {
+          "name": "Preheat the oven to 400 degrees Fahrenheit.",
+          "use": "In a large baking dish, combine the feta cheese, tomatoes, olive oil, garlic, oregano, and red pepper flakes. Season with salt and pepper to taste."
+        },
+        {
+          "name": "Bake for 20-25 minutes, or until the cheese is melted and bubbly.",
+          "use": "Cook the pasta according to the package directions. Drain the pasta and add it to the baking dish with the feta mixture. Toss to combine."
+        },
+        {
+          "name": "Serve immediately.",
+          "use": "Garnish with fresh basil leaves, if desired."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "category": "Vietnamese Food",
+      "name": "Bun Bo Hue",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2014/12/bbh-5w2-1024x681.webp",
+      "rating": 4.86,
+      "intro": "Bun Bo Hue is a spicy Vietnamese noodle soup made with beef shank, pork sausage, and a variety of herbs and spices.",
+      "description": "Bun Bo Hue is a popular dish in Vietnam and is made with a beef broth that is flavored with lemongrass, ginger, and chili peppers. The soup is also typically served with beef shank, pork sausage, rice noodles, and a variety of herbs and vegetables.",
+      "what": "Bun Bo Hue is a hearty and flavorful soup that is perfect for a cold day. It is also a good source of protein and vegetables.",
+      "how": [
+        {
+          "name": "Make the broth",
+          "use": "In a large pot, combine the beef shank, pork sausage, lemongrass, ginger, and chili peppers. Add enough water to cover the ingredients. Bring the broth to a boil, then reduce heat to low and simmer for 2 hours, or until the beef is tender."
+        },
+        {
+          "name": "Cook the noodles",
+          "use": "Cook the rice noodles according to the package directions. Drain the noodles and set aside."
+        },
+        {
+          "name": "Assemble the soup",
+          "use": "Ladle the broth into bowls. Top with the beef shank, pork sausage, rice noodles, and your favorite herbs and vegetables. Serve immediately."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "rating": 4.5,
+      "category": "CHICKEN",
+      "name": "Gỏi Gà",
+      "topic": ["Vietnamese food", "Chicken recipes"],
+      "intro": "Sweet and sticky, savory and garlicky, honey garlic chicken is always the answer.",
+      "description": "This is the best 5 ingredient back pocket recipe. Honey garlic is my jam: I can eat it on literally everything, including toast. It’s one of the easiest most flavorful sauces you can make at home and is a definite crowd pleaser.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/06/vietnamese-chicken-salad-3549w-1024x683.jpg",
+      "what": "If you’re reading all this and wondering, what is Honey Garlic Chicken, I got you! Honey Garlic Chicken is a delicious dish made with tender chicken pieces coated in a sweet and savory sauce made from honey, garlic, and other seasonings. It is a popular dish in many cuisines, known for its flavorful combination of sticky sweetness and garlicky goodness. Honey Garlic Chicken is often served with steamed rice or noodles and is enjoyed as a main course. Its mouthwatering taste and irresistible aroma make it a favorite choice for chicken lovers.",
+      "how": [
+        {
+          "name": "Cook the chicken.",
+          "use": "Lightly pat your chicken dry, season it on all sides with salt and pepper then cook it in a pan with a bit of oil. When it’s cooked through, it’s time to add the garlic."
+        },
+        {
+          "name": "Cook the garlic",
+          "use": " Add the garlic to the pan (add a bit of oil if the pan is dry) and cook until it’s soft but not brown and smells amazingly garlicky."
+        },
+        {
+          "name": "Add the sauce",
+          "use": " mild, pure, 100% clover honey is what I reach for when cooking so the flavors don’t overwhelm the dish. Because we’re cooking the honey you don’t need raw honey, save that for your tea, toast, or oatmeal."
+        },
+        {
+          "name": "Enjoy",
+          "use": "Remove the chicken from the pan along with all the sauce and enjoy!"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "rating": 4.5,
+      "category": "CHICKEN",
+      "name": "Orange Chicken",
+      "topic": ["Chinese Take Out", "Chicken recipes"],
+      "intro": "It’s amazingly easy to make orange chicken at home.",
+      "description": "This is the best 5 ingredient back pocket recipe. Honey garlic is my jam: I can eat it on literally everything, including toast. It’s one of the easiest most flavorful sauces you can make at home and is a definite crowd pleaser.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2023/07/orange-chicken-2331.jpg",
+      "what": "Orange chicken is delicious crispy bite sized pieces of golden-brown chicken tossed in a tangy, sweet, sticky, savory orange-flavored sauce.",
+      "how": [
+        {
+          "name": "Cut",
+          "use": "start with boneless, skinless chicken thighs or breasts and cut them into bit sized pieces."
+        },
+        {
+          "name": "Coat ",
+          "use": " Season the pieces of chicken with salt and pepper then toss in cornstarch to coat evenly."
+        },
+        {
+          "name": "Cook ",
+          "use": "Heat up a neutral high heat oil over medium-high heat in a deep, heavy bottomed pot."
+        },
+        {
+          "name": "Sauce ",
+          "use": "while the chicken is staying warm in the oven, make the orange sauce by whisking together orange juice, sugar, soy sauce, rice vinegar, cornstarch, garlic powder, and ginger powder in a bowl. "
+        }
+      ]
+    }
+  ],
+  "mostPopulars": [
+    {
+      "id": 1,
+      "typeFoodId": 26
+    },
+    {
+      "id": 2,
+      "typeFoodId": 27
+    },
+    {
+      "id": 3,
+      "typeFoodId": 28
+    },
+    {
+      "id": 4,
+      "typeFoodId": 29
+    },
+    {
+      "id": 5,
+      "typeFoodId": 30
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "typeFoodId": 1,
+      "name": "Honey Garlic Chicken",
+      "description": "A simple and delicious recipe for honey garlic chicken.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/04/honey-garlic-chicken-3370w-150x150.webp",
+      "serves": "4",
+      "prepTime": "20",
+      "cookTime": "30",
+      "totalTime": "50",
+      "ingredients": [
+        {
+          "name": "6 chicken thighs",
+          "quantity": "6",
+          "unit": "pieces"
+        },
+        {
+          "name": "1/3 cup honey",
+          "quantity": "0.3",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup soy sauce",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "2 tablespoons rice vinegar",
+          "quantity": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "name": "1 tablespoon garlic powder",
+          "quantity": "2",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1 teaspoon black pepper",
+          "quantity": "1",
+          "unit": "teaspoon"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Preheat oven to 400 degrees F (200 degrees C).",
+          "time": "10 minutes"
+        },
+        {
+          "step": "In a large bowl, combine honey, soy sauce, rice vinegar, garlic powder, and black pepper.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Add chicken thighs to the bowl and toss to coat.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Transfer chicken to a baking dish and bake for 30 minutes, or until cooked through.",
+          "time": "30 minutes"
+        },
+        {
+          "step": "Serve immediately.",
+          "time": "5 minutes"
+        }
+      ],
+      "category": "CHICKEN",
+      "calories": 350,
+      "rating": 4.5,
+      "nutrition": {
+        "calories": 350,
+        "fat": "15g",
+        "saturated_fat": "2g",
+        "cholesterol": "100mg",
+        "sodium": "800mg",
+        "carbohydrates": "30g",
+        "fiber": "1g",
+        "sugar": "15g",
+        "protein": "30g"
+      }
+    },
+    {
+      "id": 2,
+      "typeFoodId": 2,
+      "name": "Sweet and Sour Chicken",
+      "description": "A delicious and easy-to-make recipe for sweet and sour chicken.",
+      "image": "https://iamafoodblog.com/wp-content/uploads/2023/07/sweet-and-sour-chicken-recipe.jpg",
+      "serves": "4",
+      "prepTime": "15",
+      "cookTime": "20",
+      "totalTime": "35",
+      "ingredients": [
+        {
+          "name": "1 pound chicken breast, cut into bite-sized pieces",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1/2 cup all-purpose flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup cornstarch",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1 teaspoon salt",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon black pepper",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/4 cup vegetable oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup ketchup",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup rice vinegar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1 tablespoon sugar",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1 teaspoon cornstarch",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon ground ginger",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/4 teaspoon red pepper flakes",
+          "quantity": "1/4",
+          "unit": "teaspoon"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "In a large bowl, combine chicken, flour, cornstarch, salt, and pepper.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Heat oil in a large skillet over medium heat.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Add chicken to the skillet and cook until golden brown and cooked through, about 5 minutes per side.",
+          "time": "15 minutes"
+        },
+        {
+          "step": "While the chicken is cooking, whisk together ketchup, rice vinegar, sugar, cornstarch, ginger, and red pepper flakes in a small bowl.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Add the sauce to the skillet with the chicken and cook until thickened, about 2 minutes.",
+          "time": "2 minutes"
+        },
+        {
+          "step": "Serve immediately.",
+          "time": "5 minutes"
+        }
+      ],
+      "category": "CHICKEN",
+      "calories": 400,
+      "rating": 4.0,
+      "nutrition": {
+        "calories": 350,
+        "fat": "15g",
+        "saturated_fat": "2g",
+        "cholesterol": "100mg",
+        "sodium": "800mg",
+        "carbohydrates": "30g",
+        "fiber": "1g",
+        "sugar": "15g",
+        "protein": "30g"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Buldak Ramen",
+      "description": "A spicy and flavorful Korean ramen dish made with chicken, gochujang, and cheese.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2022/05/buldak-noodles-2718w-2048x1366.webp",
+      "serves": "4",
+      "prepTime": "10",
+      "cookTime": "20",
+      "totalTime": "30",
+      "ingredients": [
+        {
+          "name": "1 package ramen noodles",
+          "quantity": "1",
+          "unit": "package"
+        },
+        {
+          "name": "1 tablespoon gochujang",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1/4 cup soy sauce",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup honey",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup chicken broth",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup milk",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup shredded cheddar cheese",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1 pound boneless, skinless chicken breast, cut into bite-sized pieces",
+          "quantity": "1",
+          "unit": "pound"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Cook the ramen noodles according to package directions.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "In a large skillet, heat the gochujang, soy sauce, honey, chicken broth, and milk over medium heat.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Add the chicken to the skillet and cook until cooked through.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Add the cooked ramen noodles and cheese to the skillet and stir to combine.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Serve immediately.",
+          "time": "5 minutes"
+        }
+      ],
+      "category": "CHICKEN",
+      "calories": 500,
+      "rating": 4.7,
+      "nutrition": {
+        "calories": 500,
+        "fat": "25g",
+        "saturated_fat": "10g",
+        "cholesterol": "100mg",
+        "sodium": "800mg",
+        "carbohydrates": "50g",
+        "fiber": "2g",
+        "sugar": "15g",
+        "protein": "30g"
+      }
+    },
+    {
+      "id": 4,
+      "typeFoodId": 20,
+      "name": "Teriyaki Chicken",
+      "description": "A sweet and savory Japanese chicken dish made with soy sauce, mirin, and ginger.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/12/teriyaki-chicken-8201w-2048x1366.webp",
+      "serves": "4",
+      "prepTime": "15",
+      "cookTime": "20",
+      "totalTime": "35",
+      "ingredients": [
+        {
+          "name": "1 pound boneless, skinless chicken breasts, cut into bite-sized pieces",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1/4 cup soy sauce",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup mirin",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1 tablespoon grated ginger",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1 tablespoon cornstarch",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1/4 cup water",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "In a large bowl, combine the chicken, soy sauce, mirin, ginger, and cornstarch.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Heat the water in a large skillet over medium heat.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Add the chicken mixture to the skillet and cook until the chicken is cooked through.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Serve immediately.",
+          "time": "5 minutes"
+        }
+      ],
+      "category": "CHICKEN",
+      "calories": 400,
+      "rating": 4.8,
+
+      "nutrition": {
+        "calories": 400,
+        "fat": "20g",
+        "saturated_fat": "10g",
+        "cholesterol": "100mg",
+        "sodium": "800mg",
+        "carbohydrates": "30g",
+        "fiber": "2g",
+        "sugar": "15g",
+        "protein": "30g"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Air Fryer Steak",
+      "description": "Juicy and tender steak cooked to perfection in an air fryer.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/03/air-fryer-steak-1592w-2-1024x683.webp",
+      "serves": "2",
+      "prepTime": "10",
+      "cookTime": "20",
+      "totalTime": "22",
+      "ingredients": [
+        {
+          "name": "1 pound flank steak",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1 tablespoon olive oil",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1 teaspoon salt",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon black pepper",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Preheat the air fryer to 400 degrees Fahrenheit.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Pat the steak dry with paper towels.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Season the steak with olive oil, salt, and pepper.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Place the steak in the air fryer and cook for 10 minutes per side, or until cooked to desired doneness.",
+          "time": "20 minutes"
+        },
+        {
+          "step": "Let the steak rest for 5 minutes before slicing and serving.",
+          "time": "5 minutes"
+        }
+      ],
+      "category": "AIR FRYER",
+      "calories": 300,
+      "rating": 4.9,
+
+      "nutrition": {
+        "calories": 300,
+        "fat": "15g",
+        "saturated_fat": "5g",
+        "cholesterol": "75mg",
+        "sodium": "70mg",
+        "carbohydrates": "0g",
+        "fiber": "0g",
+        "sugar": "0g",
+        "protein": "30g"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Air Fryer Potatoes",
+      "description": "Crispy and golden potatoes cooked to perfection in an air fryer.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/03/air-fryer-potatoes-1561w-1024x683.webp",
+      "serves": "4",
+      "prepTime": "15",
+      "cookTime": "20",
+      "totalTime": "35",
+      "ingredients": [
+        {
+          "name": "1 pound potatoes",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1 tablespoon olive oil",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1 teaspoon salt",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon black pepper",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Preheat the air fryer to 400 degrees Fahrenheit.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Peel and cut the potatoes into wedges.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Toss the potatoes with olive oil, salt, and pepper.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Place the potatoes in the air fryer and cook for 15-20 minutes, or until golden brown and crispy.",
+          "time": "35 minutes"
+        }
+      ],
+      "category": "AIR FRYER",
+      "calories": 250,
+      "rating": 4.8,
+
+      "nutrition": {
+        "calories": 250,
+        "fat": "10g",
+        "saturated_fat": "1g",
+        "cholesterol": "0mg",
+        "sodium": "20mg",
+        "carbohydrates": "35g",
+        "fiber": "4g",
+        "sugar": "2g",
+        "protein": "4g"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Air Fryer Bacon",
+      "description": "Crispy and flavorful bacon cooked to perfection in an air fryer.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/04/air-fryer-bacon-2600w-1024x683.webp",
+      "serves": "4",
+      "prepTime": "5",
+      "cookTime": "10",
+      "totalTime": "15",
+      "ingredients": [
+        {
+          "name": "1 pound bacon",
+          "quantity": "1",
+          "unit": "pound"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Preheat the air fryer to 350 degrees Fahrenheit.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Place the bacon in a single layer in the air fryer basket.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Cook the bacon for 10-12 minutes, or until crispy.",
+          "time": "20 minutes"
+        },
+        {
+          "step": "Let the bacon cool slightly before serving.",
+          "time": "5 minutes"
+        }
+      ],
+      "category": "AIR FRYER",
+      "calories": 250,
+      "rating": 4.9,
+
+      "nutrition": {
+        "calories": 250,
+        "fat": "15g",
+        "saturated_fat": "5g",
+        "cholesterol": "75mg",
+        "sodium": "70mg",
+        "carbohydrates": "0g",
+        "fiber": "0g",
+        "sugar": "0g",
+        "protein": "30g"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Air Fryer Chicken Thighs",
+      "description": "Juicy and flavorful chicken thighs cooked to perfection in an air fryer.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/09/air-fryer-chicken-thighs-6874w-1024x683.webp",
+      "serves": "4",
+      "prepTime": "10",
+      "cookTime": "22",
+      "totalTime": "32",
+      "ingredients": [
+        {
+          "name": "1 pound chicken thighs",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1 tablespoon olive oil",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1 teaspoon salt",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon black pepper",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Preheat the air fryer to 400 degrees Fahrenheit.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Pat the chicken thighs dry with paper towels.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Season the chicken thighs with olive oil, salt, and pepper.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Place the chicken thighs in the air fryer and cook for 15 minutes per side, or until cooked to desired doneness.",
+          "time": "30 minutes"
+        },
+        {
+          "step": "Let the chicken thighs rest for 5 minutes before slicing and serving.",
+          "time": "5 minutes"
+        }
+      ],
+      "category": "AIR FRYER",
+      "calories": 250,
+      "rating": 4.9,
+
+      "nutrition": {
+        "calories": 250,
+        "fat": "10g",
+        "saturated_fat": "3g",
+        "cholesterol": "75mg",
+        "sodium": "70mg",
+        "carbohydrates": "0g",
+        "fiber": "0g",
+        "sugar": "0g",
+        "protein": "30g"
+      }
+    },
+    {
+      "id": 9,
+      "typeFoodId": 22,
+      "name": "Vegetable Yakitori",
+      "description": "A delicious and healthy dish of grilled vegetables skewered and cooked over an open flame.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2023/04/vegetable-yakitori-0799w-1024x683.webp",
+      "serves": "4",
+      "prepTime": "20",
+      "cookTime": "15",
+      "totalTime": "35",
+      "ingredients": [
+        {
+          "name": "1 pound vegetables (such as broccoli, carrots, zucchini, onions, mushrooms)",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1 tablespoon soy sauce",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1 tablespoon mirin",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1 teaspoon sesame oil",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1 teaspoon garlic powder",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon black pepper",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Cut the vegetables into skewer-sized pieces.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "In a bowl, whisk together the soy sauce, mirin, sesame oil, garlic powder, and black pepper.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Add the vegetables to the bowl and toss to coat.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Thread the vegetables onto skewers.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Grill the skewers over medium heat for 5-7 minutes per side, or until tender and slightly charred.",
+          "time": "20 minutes"
+        }
+      ],
+      "category": "Vegan",
+      "calories": 250,
+      "rating": 4.8,
+
+      "nutrition": {
+        "calories": 250,
+        "fat": "10g",
+        "saturated_fat": "1g",
+        "cholesterol": "0mg",
+        "sodium": "100mg",
+        "carbohydrates": "10g",
+        "fiber": "5g",
+        "sugar": "5g",
+        "protein": "10g"
+      }
+    },
+    {
+      "id": 10,
+      "typeFoodId": 23,
+      "name": "Seitan",
+      "description": "A vegan meat substitute made from wheat gluten.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/03/seitan-2232w-1024x683.webp",
+      "serves": "4",
+      "prepTime": "30",
+      "cookTime": "60",
+      "totalTime": "90",
+      "ingredients": [
+        {
+          "name": "1 cup vital wheat gluten",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "name": "1 tablespoon soy sauce",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1 tablespoon vegetable broth",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1 teaspoon garlic powder",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon onion powder",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon salt",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/4 teaspoon black pepper",
+          "quantity": "1/4",
+          "unit": "teaspoon"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "In a large bowl, combine the vital wheat gluten, soy sauce, vegetable broth, garlic powder, onion powder, salt, and pepper.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Knead the mixture until it forms a dough.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Divide the dough into two pieces and roll each piece into a log.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Place the logs in a steamer basket and steam for 30 minutes, or until cooked through.",
+          "time": "30 minutes"
+        },
+        {
+          "step": "Let the seitan cool slightly before slicing and serving.",
+          "time": "5 minutes"
+        }
+      ],
+      "category": "Vegan",
+      "calories": 200,
+      "rating": 4.8,
+
+      "nutrition": {
+        "calories": 200,
+        "fat": "10g",
+        "saturated_fat": "1g",
+        "cholesterol": "0mg",
+        "sodium": "400mg",
+        "carbohydrates": "20g",
+        "fiber": "2g",
+        "sugar": "2g",
+        "protein": "20g"
+      }
+    },
+    {
+      "id": 11,
+      "typeFoodId": 24,
+      "name": "Honeynut Squash with Honeyed Walnuts",
+      "description": "A delicious and healthy side dish made with honeynut squash, walnuts, and honey.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2018/12/honeynut-squash-3667w-1024x683.jpg",
+      "serves": "4",
+      "prepTime": "15",
+      "cookTime": "30",
+      "totalTime": "45",
+      "ingredients": [
+        {
+          "name": "1 honeynut squash",
+          "quantity": "1",
+          "unit": "whole"
+        },
+        {
+          "name": "1/4 cup honey",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup walnuts",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1 teaspoon cinnamon",
+          "quantity": "1",
+          "unit": "teaspoon"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Preheat the oven to 400 degrees Fahrenheit.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Cut the honeynut squash in half and remove the seeds.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Place the squash halves on a baking sheet and drizzle with honey.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Sprinkle with cinnamon and walnuts.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Roast for 30 minutes, or until the squash is tender.",
+          "time": "30 minutes"
+        }
+      ],
+      "category": "Vegan",
+      "calories": 200,
+      "rating": 4.8,
+
+      "nutrition": {
+        "calories": 200,
+        "fat": "10g",
+        "saturated_fat": "1g",
+        "cholesterol": "0mg",
+        "sodium": "20mg",
+        "carbohydrates": "25g",
+        "fiber": "5g",
+        "sugar": "10g",
+        "protein": "4g"
+      }
+    },
+    {
+      "id": 12,
+      "typeFoodId": 31,
+      "name": "The Best Broccoli Salad",
+      "description": "A delicious and healthy broccoli salad made with bacon, cheese, and a creamy dressing.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2019/05/sesame-soy-broccoli-salad-3855w-2-1024x683.webp",
+      "serves": "6",
+      "prepTime": "20",
+      "cookTime": "10",
+      "totalTime": "30",
+      "ingredients": [
+        {
+          "name": "1 head broccoli, chopped",
+          "quantity": "1",
+          "unit": "head"
+        },
+        {
+          "name": "1/2 cup bacon, cooked and crumbled",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup cheddar cheese, shredded",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup mayonnaise",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup sour cream",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1 tablespoon Dijon mustard",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1 teaspoon salt",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon black pepper",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Combine the broccoli, bacon, cheese, mayonnaise, sour cream, Dijon mustard, salt, and pepper in a large bowl.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Mix well until combined.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Cover and chill for at least 30 minutes before serving.",
+          "time": "30 minutes"
+        }
+      ],
+      "category": "Vegan",
+      "calories": 250,
+      "rating": 4.8,
+
+      "nutrition": {
+        "calories": 250,
+        "fat": "15g",
+        "saturated_fat": "5g",
+        "cholesterol": "75mg",
+        "sodium": "70mg",
+        "carbohydrates": "10g",
+        "fiber": "5g",
+        "sugar": "5g",
+        "protein": "10g"
+      }
+    },
+    {
+      "id": 13,
+      "typeFoodId": 26,
+      "name": "Birria Tacos Recipe",
+      "description": "While birria is traditionally made with goat, for most of us it’s easier to get beef so that’s what I’ve gone with here. Beef is also the safer choice for crowds, but if you’re an adventurous eater and want to go with goat, you should totally go(at) for it. The recipe remains the same, just switch out the beef shank and sirloin for goat.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/05/homemade-birria-tacos-recipe-3273w-1536x1025.webp",
+      "serves": "4",
+      "prepTime": "20",
+      "cookTime": "100",
+      "totalTime": "120",
+      "ingredients": [
+        {
+          "name": "1.5 lb beef shank",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "name": "1 lb sirloin or other roast/steak",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "name": "13 dried guajillo peppers see notes",
+          "quantity": "13",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup vinegar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup crushed tomatoes",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1 tablespoon Dijon mustard",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1 teaspoon salt",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon black pepper",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Bring a large pot of water to a boil and then remove from heat. Soak your dried guajillo peppers for 15 minutes. Meanwhile, cube your cab sirloin, then season both the steak and the shank with salt and pepper. Set aside.",
+          "time": "15 minutes"
+        },
+        {
+          "step": "Add marinade ingredients to the blender. When the peppers are done soaking, hold them by the tip over the sink and use scissors to cut the stem off and allow the seeds to fall out, then add to blender. Blend the marinade into a smooth paste. Marinate the meats for a minimum of two hours or up to overnight.",
+          "time": "2 hrs up to overnight"
+        },
+        {
+          "step": "Set your Instant Pot on saute high or use a skillet over medium heat. Add 1-2 tbsp oil, then saute the onions until golden and translucent (6-8 minutes).",
+          "time": "6-8 minutes"
+        }
+      ],
+      "category": "TACOS",
+      "calories": 626,
+      "rating": 4.8,
+      "nutrition": {
+        "calories": 626,
+        "fat": "15.8g",
+        "saturated_fat": "5g",
+        "cholesterol": "75mg",
+        "sodium": "70mg",
+        "carbohydrates": "10g",
+        "fiber": "5g",
+        "sugar": "5g",
+        "protein": "10g"
+      }
+    },
+    {
+      "id": 14,
+      "typeFoodId": 27,
+      "name": "Best Paella Ever",
+      "description": "Paella even has its own emoji 🥘 – it NEEDS to be made and eaten.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2012/07/paella-9181w-150x150.webp",
+      "serves": "4",
+      "prepTime": "20",
+      "cookTime": "30",
+      "totalTime": "50",
+      "ingredients": [
+        {
+          "name": "1 cup white rice",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "name": "1 pound boneless, skinless chicken thighs",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1 pound shrimp, peeled and deveined",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1/2 pound chorizo sausage, sliced",
+          "quantity": "1/2",
+          "unit": "pound"
+        },
+        {
+          "name": "1/2 cup diced onion",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup diced green bell pepper",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup diced red bell pepper",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1 cup chopped tomatoes",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup chicken broth",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup dry white wine",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1 teaspoon smoked paprika",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon saffron threads",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon salt",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/4 teaspoon black pepper",
+          "quantity": "1/4",
+          "unit": "teaspoon"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Heat the olive oil in a large paella pan over medium heat. Add the chicken and cook until browned on all sides. Remove the chicken from the pan and set aside.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Add the chorizo sausage to the pan and cook until browned. Remove the sausage from the pan and set aside.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Add the onion, green bell pepper, and red bell pepper to the pan and cook until softened, about 5 minutes.",
+          "time": "5 minutes"
+        },
+
+        {
+          "step": "Add the tomatoes, chicken broth, white wine, smoked paprika, saffron threads, salt, and black pepper to the pan. Bring to a boil, then reduce heat to low and simmer for 10 minutes.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Return the chicken and sausage to the pan. Add the rice and stir to combine. Cover the pan and cook for 20 minutes, or until the rice is cooked through.",
+          "time": "20 minutes"
+        },
+        {
+          "step": "Remove from the heat and let stand for 5 minutes before serving.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Garnish with parsley and lemon wedges, if desired.",
+          "time": "0 minutes"
+        }
+      ],
+      "category": "QUARANTINE COOKING",
+      "calories": 626,
+      "rating": 4.8,
+      "nutrition": {
+        "calories": 626,
+        "fat": "15.8g",
+        "saturated_fat": "5g",
+        "cholesterol": "75mg",
+        "sodium": "70mg",
+        "carbohydrates": "10g",
+        "fiber": "5g",
+        "sugar": "5g",
+        "protein": "10g"
+      }
+    },
+    {
+      "id": 15,
+      "typeFoodId": 15,
+      "name": "Authentic Instant Pot Pho",
+      "description": "This recipe for Authentic Instant Pot Pho is easy to follow and produces a delicious and flavorful soup.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2017/11/authentic-instant-pot-pho-recipe-1959w-150x150.jpg",
+      "serves": "6",
+      "prepTime": "20",
+      "cookTime": "30",
+      "totalTime": "50",
+      "ingredients": [
+        {
+          "name": "1 pound beef chuck roast, cut into 1-inch cubes",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1 tablespoon vegetable oil",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1 onion, chopped",
+          "quantity": "1",
+          "unit": "onion"
+        },
+        {
+          "name": "3 cloves garlic, minced",
+          "quantity": "3",
+          "unit": "clove"
+        },
+        {
+          "name": "2 star anise pods",
+          "quantity": "2",
+          "unit": "pod"
+        },
+        {
+          "name": "4 cinnamon sticks",
+          "quantity": "4",
+          "unit": "stick"
+        },
+        {
+          "name": "1 teaspoon black peppercorns",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 cup beef broth",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "8 cups water",
+          "quantity": "8",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup dried rice noodles",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup chopped fresh cilantro",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup chopped fresh mint",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "Lime wedges, for serving",
+          "quantity": "4",
+          "unit": "wedge"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Heat the vegetable oil in a large Instant Pot on the saute setting. Add the beef and cook until browned on all sides.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Add the onion, garlic, star anise, cinnamon sticks, and black peppercorns to the pot and cook for 5 minutes more, or until the onion is softened.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Add the beef broth, water, and rice noodles to the pot. Close the lid and seal the valve. Cook on high pressure for 20 minutes.",
+          "time": "20 minutes"
+        },
+        {
+          "step": "Let the pressure release naturally for 10 minutes, then quick release any remaining pressure.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Discard the star anise and cinnamon sticks. Stir in the cilantro and mint. Serve immediately with lime wedges.",
+          "time": "0 minutes"
+        }
+      ],
+      "category": "PASTA/NOODLES",
+      "calories": 500,
+      "rating": 4.5,
+      "nutrition": {
+        "calories": 500,
+        "fat": "17g",
+        "saturated_fat": "5g",
+        "cholesterol": "55mg",
+        "sodium": "1,200mg",
+        "carbohydrates": "60g",
+        "fiber": "6g",
+        "sugar": "5g",
+        "protein": "35g"
+      }
+    },
+    {
+      "id": 16,
+      "typeFoodId": 28,
+      "name": "Takoyaki",
+      "description": "Takoyaki is a Japanese snack made of small, ball-shaped pancakes filled with octopus, tempura scraps, pickled ginger, and green onion.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2012/07/takoyaki-recipe-4792w-150x150.jpg",
+      "serves": "4",
+      "prepTime": "30",
+      "cookTime": "15",
+      "totalTime": "45",
+      "ingredients": [
+        {
+          "name": "1 cup all-purpose flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup breadcrumbs",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1 egg",
+          "quantity": "1",
+          "unit": "egg"
+        },
+        {
+          "name": "1/2 cup dashi stock",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1 teaspoon baking powder",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1 teaspoon soy sauce",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon sesame oil",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/4 teaspoon salt",
+          "quantity": "1/4",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/4 teaspoon black pepper",
+          "quantity": "1/4",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1 pound octopus, cooked and diced",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1/2 cup tempura scraps",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup pickled ginger, diced",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup green onion, chopped",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "Mayo, for serving",
+          "quantity": "as needed",
+          "unit": "none"
+        },
+        {
+          "name": "Okonomiyaki sauce, for serving",
+          "quantity": "as needed",
+          "unit": "none"
+        },
+        {
+          "name": "Aonori seaweed, for serving",
+          "quantity": "as needed",
+          "unit": "none"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Combine all of the ingredients for the takoyaki batter in a bowl and whisk until smooth.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Heat a takoyaki pan over medium heat. Add a small amount of oil to each cup of the pan.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Place a spoonful of batter in each cup of the pan.",
+          "time": "1 minute"
+        },
+        {
+          "step": "Top each takoyaki with a piece of octopus, tempura scraps, pickled ginger, and green onion.",
+          "time": "1 minute"
+        },
+        {
+          "step": "Cover the pan and cook for 2-3 minutes, or until the takoyaki are cooked through.",
+          "time": "2-3 minutes"
+        },
+        {
+          "step": "Flip the takoyaki and cook for another 2-3 minutes, or until golden brown.",
+          "time": "2-3 minutes"
+        },
+        {
+          "step": "Serve immediately with mayo, okonomiyaki sauce, and aonori seaweed.",
+          "time": "0 minutes"
+        }
+      ],
+      "category": "BREAKFAST/BRUNCH",
+      "calories": 300,
+      "rating": 4.3,
+      "nutrition": {
+        "calories": 300,
+        "fat": "16.2g",
+        "saturated_fat": "2.4g",
+        "cholesterol": "100mg",
+        "sodium": "470mg",
+        "carbohydrates": "36g",
+        "fiber": "1g",
+        "sugar": "5g",
+        "protein": "12g"
+      }
+    },
+    {
+      "id": 17,
+      "typeFoodId": 29,
+      "name": "Tiktok Baked Feta Pasta",
+      "description": "This viral pasta dish is made with feta cheese, cherry tomatoes, and pasta. It's simple to make and incredibly delicious.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/02/baked-feta-pasta-0974-150x150.jpg",
+      "serves": "4",
+      "prepTime": "15",
+      "cookTime": "20",
+      "totalTime": "35",
+      "ingredients": [
+        {
+          "name": "1 pound pasta",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1 block feta cheese",
+          "quantity": "1",
+          "unit": "block"
+        },
+        {
+          "name": "1 pint cherry tomatoes, halved",
+          "quantity": "1",
+          "unit": "pint"
+        },
+        {
+          "name": "1/4 cup olive oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup lemon juice",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1 teaspoon dried oregano",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon salt",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/4 teaspoon black pepper",
+          "quantity": "1/4",
+          "unit": "teaspoon"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Preheat the oven to 400 degrees Fahrenheit.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Cook the pasta according to the package directions.",
+          "time": "15 minutes"
+        },
+        {
+          "step": "While the pasta is cooking, combine the feta cheese, cherry tomatoes, olive oil, lemon juice, oregano, salt, and pepper in a large bowl.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Drain the pasta and add it to the bowl with the feta mixture. Toss to combine.",
+          "time": "1 minute"
+        },
+        {
+          "step": "Transfer the pasta mixture to a baking dish and bake for 20 minutes, or until the cheese is melted and bubbly.",
+          "time": "20 minutes"
+        },
+        {
+          "step": "Serve immediately.",
+          "time": "0 minutes"
+        }
+      ],
+      "category": "PASTA/NOODLES",
+      "calories": 500,
+      "rating": 4.5,
+      "nutrition": {
+        "calories": 500,
+        "fat": "28g",
+        "saturated_fat": "12g",
+        "cholesterol": "40mg",
+        "sodium": "400mg",
+        "carbohydrates": "40g",
+        "fiber": "6g",
+        "sugar": "10g",
+        "protein": "20g"
+      }
+    },
+    {
+      "id": 18,
+      "typeFoodId": 30,
+      "name": "Bun Bo Hue",
+      "description": "This spicy Vietnamese noodle soup is made with beef, pork, shrimp, blood cubes, lemongrass, chili peppers, and rice noodles. It's a hearty and flavorful dish that is sure to warm you up on a cold day.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2014/12/bbh-7802w-150x150.webp",
+      "serves": "6",
+      "prepTime": "20",
+      "cookTime": "30",
+      "totalTime": "50",
+      "ingredients": [
+        {
+          "name": "1 pound beef chuck roast, cut into 1-inch cubes",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1 pound pork shoulder, cut into 1-inch cubes",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1 pound shrimp, peeled and deveined",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1 pound pork blood cubes",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1 tablespoon vegetable oil",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1 onion, chopped",
+          "quantity": "1",
+          "unit": "onion"
+        },
+        {
+          "name": "4 cloves garlic, minced",
+          "quantity": "4",
+          "unit": "clove"
+        },
+        {
+          "name": "2 stalks lemongrass, bruised",
+          "quantity": "2",
+          "unit": "stalk"
+        },
+        {
+          "name": "1 teaspoon ginger, grated",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1 teaspoon turmeric powder",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1 teaspoon chili powder",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon salt",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/4 teaspoon black pepper",
+          "quantity": "1/4",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "8 cups beef broth",
+          "quantity": "8",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup water",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup fish sauce",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup lime juice",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1 bunch cilantro, chopped",
+          "quantity": "1",
+          "unit": "bunch"
+        },
+        {
+          "name": "1/2 cup bean sprouts",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup chopped green onions",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "Rice noodles",
+          "quantity": "as needed",
+          "unit": "none"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Heat the vegetable oil in a large pot over medium heat. Add the onion and cook until softened, about 5 minutes. Add the garlic and cook for 1 minute more.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Add the lemongrass, ginger, turmeric powder, chili powder, salt, and pepper. Cook for 1 minute more.",
+          "time": "1 minute"
+        },
+        {
+          "step": "Add the beef broth, water, fish sauce, and lime juice. Bring to a boil, then reduce heat and simmer for 30 minutes.",
+          "time": "30 minutes"
+        },
+        {
+          "step": "Add the beef, pork, shrimp, and pork blood cubes to the soup. Cook until the beef and pork are cooked through, about 10 minutes.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Cook the rice noodles according to the package directions. Drain and rinse with cold water.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Ladle the soup into bowls and top with rice noodles, cilantro, bean sprouts, and green onions. Serve immediately.",
+          "time": "0 minutes"
+        }
+      ],
+      "category": "PASTA/NOODLES",
+      "calories": 501,
+      "rating": 4.8,
+      "nutrition": {
+        "calories": 850,
+        "fat": "35g",
+        "saturated_fat": "11g",
+        "cholesterol": "100mg",
+        "sodium": "2500mg",
+        "carbohydrates": "125g",
+        "fiber": "10g",
+        "sugar": "15g",
+        "protein": "35g"
+      }
+    },
+    {
+      "id": 19,
+      "typeFoodId": 5,
+      "name": "Mexican Rice",
+      "topic": ["easy", "10 Ingredients or less"],
+      "intro": "Mexican rice is probably one of the best versions of rice in the world.",
+      "description": "This classic comfort food is made with elbow macaroni, Velveeta cheese, and milk. It's easy to make and always a crowd-pleaser.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2019/09/how-to-make-mexican-rice-6510w-150x150.webp",
+      "serves": "6",
+      "prepTime": "15",
+      "cookTime": "20",
+      "totalTime": "35",
+      "ingredients": [
+        {
+          "name": "1 pound elbow macaroni",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1 (12 ounce) package Velveeta cheese, cubed",
+          "quantity": "1",
+          "unit": "package"
+        },
+        {
+          "name": "1 (10.75 ounce) can condensed cheddar cheese soup",
+          "quantity": "1",
+          "unit": "can"
+        },
+        {
+          "name": "1 (12 ounce) can evaporated milk",
+          "quantity": "1",
+          "unit": "can"
+        },
+        {
+          "name": "1/2 teaspoon salt",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/4 teaspoon black pepper",
+          "quantity": "1/4",
+          "unit": "teaspoon"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Cook the macaroni according to the package directions. Drain and set aside.",
+          "time": "15 minutes"
+        },
+        {
+          "step": "In a large saucepan, combine the Velveeta cheese, cheddar cheese soup, evaporated milk, salt, and pepper. Cook over medium heat, stirring constantly, until the cheese is melted and the sauce is smooth.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Add the cooked macaroni to the cheese sauce and stir until combined.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Pour the mac and cheese into a greased 9x13 inch baking dish. Bake in a preheated oven at 350 degrees F (175 degrees C) for 20 minutes, or until bubbly and golden brown.",
+          "time": "20 minutes"
+        }
+      ],
+      "category": "PASTA/NOODLES",
+      "calories": 600,
+      "rating": 4.9,
+      "nutrition": {
+        "calories": 600,
+        "fat": "30g",
+        "saturated_fat": "15g",
+        "cholesterol": "100mg",
+        "sodium": "1500mg",
+        "carbohydrates": "60g",
+        "fiber": "2g",
+        "sugar": "15g",
+        "protein": "20g"
+      }
+    },
+    {
+      "id": 20,
+      "typeFoodId": 25,
+      "name": "The Best Sesame Soy Broccoli Salad",
+      "intro": "When you’re trying to eat healthier but want something more substantial than a leafy green salad, broccoli salad is there for you",
+      "description": "This spicy Thai noodle soup is made with chicken, yellow curry, coconut milk, and rice noodles. It's a flavorful and comforting dish that is sure to warm you up on a cold day.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2019/05/sesame-soy-broccoli-salad-3855w-2-150x150.webp",
+      "serves": "6",
+      "prepTime": "20",
+      "cookTime": "15",
+      "totalTime": "35",
+      "ingredients": [
+        {
+          "name": "1 pound boneless, skinless chicken breasts, cut into bite-sized pieces",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1 tablespoon vegetable oil",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1 onion, chopped",
+          "quantity": "1",
+          "unit": "onion"
+        },
+        {
+          "name": "4 cloves garlic, minced",
+          "quantity": "4",
+          "unit": "clove"
+        },
+        {
+          "name": "1 (14 ounce) can coconut milk",
+          "quantity": "1",
+          "unit": "can"
+        },
+        {
+          "name": "1 tablespoon yellow curry paste",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "name": "1/2 teaspoon ground turmeric",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon ginger powder",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/4 teaspoon red pepper flakes",
+          "quantity": "1/4",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon salt",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/4 teaspoon black pepper",
+          "quantity": "1/4",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 cup chicken broth",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1 pound rice noodles",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "name": "1/2 cup chopped cilantro",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup bean sprouts",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "1/4 cup chopped green onions",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Heat the vegetable oil in a large pot over medium heat. Add the chicken and cook until browned on all sides.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Add the onion and cook until softened, about 5 minutes. Add the garlic and cook for 1 minute more.",
+          "time": "1 minute"
+        },
+        {
+          "step": "Add the coconut milk, curry paste, turmeric, ginger, red pepper flakes, salt, and pepper. Bring to a boil, then reduce heat and simmer for 10 minutes.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Add the chicken broth and rice noodles. Cook according to the package directions.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Ladle the soup into bowls and top with chopped cilantro, bean sprouts, and green onions. Serve immediately.",
+          "time": "0 minutes"
+        }
+      ],
+      "category": "VEGAN",
+      "calories": 868,
+      "rating": 4.7,
+      "nutrition": {
+        "calories": 715,
+        "fat": "25g",
+        "saturated_fat": "10g",
+        "cholesterol": "100mg",
+        "sodium": "1250mg",
+        "carbohydrates": "125g",
+        "fiber": "5g",
+        "sugar": "15g",
+        "protein": "35g"
+      }
+    },
+    {
+      "id": 21,
+      "typeFoodId": 3,
+      "name": "Singapore Noodles",
+      "description": "A Korean corn dog is a hot dog, mozzarella cheese, or fish cake coated in a thick batter and deep-fried. It's a popular street food in Korea and is also becoming popular in other parts of the world.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2023/01/singapore-noodles-8932w-150x150.jpg",
+      "serves": "4",
+      "prepTime": "20",
+      "cookTime": "10",
+      "totalTime": "30",
+      "ingredients": [
+        {
+          "name": "1/4 cup chicken stock",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "2 tbsp oyster sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "name": "1 teaspoon baking powder",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon salt",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon black pepper",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1 egg, beaten",
+          "quantity": "1",
+          "unit": "egg"
+        },
+        {
+          "name": "1 cup panko bread crumbs",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup vegetable oil",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "In a bowl, whisk together the flour, baking powder, salt, and pepper.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "In a separate bowl, whisk together the egg and panko bread crumbs.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Dip the hot dogs in the flour mixture, then the egg mixture, and then the panko bread crumb mixture.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Heat the vegetable oil in a deep skillet or pot over medium heat.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Fry the corn dogs in batches for 2-3 minutes per side, or until golden brown and cooked through.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Serve immediately with your favorite dipping sauce.",
+          "time": "0 minutes"
+        }
+      ],
+      "category": "GLUTEN-FREE",
+      "calories": 420,
+      "rating": 4.8,
+      "nutrition": {
+        "calories": 420,
+        "fat": "20g",
+        "saturated_fat": "8g",
+        "cholesterol": "100mg",
+        "sodium": "300mg",
+        "carbohydrates": "35g",
+        "fiber": "2g",
+        "sugar": "2g",
+        "protein": "10g"
+      }
+    },
+    {
+      "id": 22,
+      "typeFoodId": 8,
+      "name": "Air Fryer Potatoes",
+      "description": "A Korean corn dog is a hot dog, mozzarella cheese, or fish cake coated in a thick batter and deep-fried. It's a popular street food in Korea and is also becoming popular in other parts of the world.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/03/air-fryer-potatoes-1561w-150x150.webp",
+      "serves": "4",
+      "prepTime": "20",
+      "cookTime": "10",
+      "totalTime": "30",
+      "ingredients": [
+        {
+          "name": "1/4 cup chicken stock",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "2 tbsp oyster sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "name": "1 teaspoon baking powder",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon salt",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon black pepper",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1 egg, beaten",
+          "quantity": "1",
+          "unit": "egg"
+        },
+        {
+          "name": "1 cup panko bread crumbs",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup vegetable oil",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "In a bowl, whisk together the flour, baking powder, salt, and pepper.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "In a separate bowl, whisk together the egg and panko bread crumbs.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Dip the hot dogs in the flour mixture, then the egg mixture, and then the panko bread crumb mixture.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Heat the vegetable oil in a deep skillet or pot over medium heat.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Fry the corn dogs in batches for 2-3 minutes per side, or until golden brown and cooked through.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Serve immediately with your favorite dipping sauce.",
+          "time": "0 minutes"
+        }
+      ],
+      "category": "GLUTEN-FREE",
+      "calories": 420,
+      "rating": 4.8,
+      "nutrition": {
+        "calories": 420,
+        "fat": "20g",
+        "saturated_fat": "8g",
+        "cholesterol": "100mg",
+        "sodium": "300mg",
+        "carbohydrates": "35g",
+        "fiber": "2g",
+        "sugar": "2g",
+        "protein": "10g"
+      }
+    },
+    {
+      "id": 23,
+      "typeFoodId": 9,
+      "name": "Air Fryer Chicken Wings",
+      "description": "A Korean corn dog is a hot dog, mozzarella cheese, or fish cake coated in a thick batter and deep-fried. It's a popular street food in Korea and is also becoming popular in other parts of the world.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/09/air-fryer-chicken-wings-5931w-2-150x150.webp",
+      "serves": "4",
+      "prepTime": "20",
+      "cookTime": "10",
+      "totalTime": "30",
+      "ingredients": [
+        {
+          "name": "1/4 cup chicken stock",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "2 tbsp oyster sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "name": "1 teaspoon baking powder",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon salt",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon black pepper",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1 egg, beaten",
+          "quantity": "1",
+          "unit": "egg"
+        },
+        {
+          "name": "1 cup panko bread crumbs",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup vegetable oil",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "In a bowl, whisk together the flour, baking powder, salt, and pepper.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "In a separate bowl, whisk together the egg and panko bread crumbs.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Dip the hot dogs in the flour mixture, then the egg mixture, and then the panko bread crumb mixture.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Heat the vegetable oil in a deep skillet or pot over medium heat.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Fry the corn dogs in batches for 2-3 minutes per side, or until golden brown and cooked through.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Serve immediately with your favorite dipping sauce.",
+          "time": "0 minutes"
+        }
+      ],
+      "category": "GLUTEN-FREE",
+      "calories": 420,
+      "rating": 4.8,
+      "nutrition": {
+        "calories": 420,
+        "fat": "20g",
+        "saturated_fat": "8g",
+        "cholesterol": "100mg",
+        "sodium": "300mg",
+        "carbohydrates": "35g",
+        "fiber": "2g",
+        "sugar": "2g",
+        "protein": "10g"
+      }
+    },
+    {
+      "id": 24,
+      "typeFoodId": 10,
+      "name": "Air Fryer Chicken Char Siu",
+      "description": "A Korean corn dog is a hot dog, mozzarella cheese, or fish cake coated in a thick batter and deep-fried. It's a popular street food in Korea and is also becoming popular in other parts of the world.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/05/air-fryer-char-siu-2848w-150x150.webp",
+      "serves": "4",
+      "prepTime": "20",
+      "cookTime": "10",
+      "totalTime": "30",
+      "ingredients": [
+        {
+          "name": "1/4 cup chicken stock",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "2 tbsp oyster sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "name": "1 teaspoon baking powder",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon salt",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon black pepper",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1 egg, beaten",
+          "quantity": "1",
+          "unit": "egg"
+        },
+        {
+          "name": "1 cup panko bread crumbs",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup vegetable oil",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "In a bowl, whisk together the flour, baking powder, salt, and pepper.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "In a separate bowl, whisk together the egg and panko bread crumbs.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Dip the hot dogs in the flour mixture, then the egg mixture, and then the panko bread crumb mixture.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Heat the vegetable oil in a deep skillet or pot over medium heat.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Fry the corn dogs in batches for 2-3 minutes per side, or until golden brown and cooked through.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Serve immediately with your favorite dipping sauce.",
+          "time": "0 minutes"
+        }
+      ],
+      "category": "GLUTEN-FREE",
+      "calories": 420,
+      "rating": 4.8,
+      "nutrition": {
+        "calories": 420,
+        "fat": "20g",
+        "saturated_fat": "8g",
+        "cholesterol": "100mg",
+        "sodium": "300mg",
+        "carbohydrates": "35g",
+        "fiber": "2g",
+        "sugar": "2g",
+        "protein": "10g"
+      }
+    },
+    {
+      "id": 25,
+      "typeFoodId": 19,
+      "name": "Trader Joes Kimbap Review + Recipe",
+      "description": "A Korean corn dog is a hot dog, mozzarella cheese, or fish cake coated in a thick batter and deep-fried. It's a popular street food in Korea and is also becoming popular in other parts of the world.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2023/08/kimbap-3018w-150x150.webp",
+      "serves": "4",
+      "prepTime": "20",
+      "cookTime": "10",
+      "totalTime": "30",
+      "ingredients": [
+        {
+          "name": "1/4 cup chicken stock",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "2 tbsp oyster sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "name": "1 teaspoon baking powder",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon salt",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon black pepper",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1 egg, beaten",
+          "quantity": "1",
+          "unit": "egg"
+        },
+        {
+          "name": "1 cup panko bread crumbs",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup vegetable oil",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "In a bowl, whisk together the flour, baking powder, salt, and pepper.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "In a separate bowl, whisk together the egg and panko bread crumbs.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Dip the hot dogs in the flour mixture, then the egg mixture, and then the panko bread crumb mixture.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Heat the vegetable oil in a deep skillet or pot over medium heat.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Fry the corn dogs in batches for 2-3 minutes per side, or until golden brown and cooked through.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Serve immediately with your favorite dipping sauce.",
+          "time": "0 minutes"
+        }
+      ],
+      "category": "GLUTEN-FREE",
+      "calories": 420,
+      "rating": 4.8,
+      "nutrition": {
+        "calories": 420,
+        "fat": "20g",
+        "saturated_fat": "8g",
+        "cholesterol": "100mg",
+        "sodium": "300mg",
+        "carbohydrates": "35g",
+        "fiber": "2g",
+        "sugar": "2g",
+        "protein": "10g"
+      }
+    },
+    {
+      "id": 26,
+      "typeFoodId": 21,
+      "name": "Tips your tomatoes",
+      "description": "A Korean corn dog is a hot dog, mozzarella cheese, or fish cake coated in a thick batter and deep-fried. It's a popular street food in Korea and is also becoming popular in other parts of the world.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2023/08/refrigerate-tomatoes-2953.webp",
+      "serves": "4",
+      "prepTime": "20",
+      "cookTime": "10",
+      "totalTime": "30",
+      "ingredients": [
+        {
+          "name": "1/4 cup chicken stock",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "2 tbsp oyster sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "name": "1 teaspoon baking powder",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon salt",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon black pepper",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1 egg, beaten",
+          "quantity": "1",
+          "unit": "egg"
+        },
+        {
+          "name": "1 cup panko bread crumbs",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup vegetable oil",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "In a bowl, whisk together the flour, baking powder, salt, and pepper.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "In a separate bowl, whisk together the egg and panko bread crumbs.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Dip the hot dogs in the flour mixture, then the egg mixture, and then the panko bread crumb mixture.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Heat the vegetable oil in a deep skillet or pot over medium heat.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Fry the corn dogs in batches for 2-3 minutes per side, or until golden brown and cooked through.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Serve immediately with your favorite dipping sauce.",
+          "time": "0 minutes"
+        }
+      ],
+      "category": "GLUTEN-FREE",
+      "calories": 420,
+      "rating": 4.8,
+      "nutrition": {
+        "calories": 420,
+        "fat": "20g",
+        "saturated_fat": "8g",
+        "cholesterol": "100mg",
+        "sodium": "300mg",
+        "carbohydrates": "35g",
+        "fiber": "2g",
+        "sugar": "2g",
+        "protein": "10g"
+      }
+    },
+    {
+      "id": 27,
+      "typeFoodId": 7,
+      "name": "Air Fryer Steak",
+      "description": "A Korean corn dog is a hot dog, mozzarella cheese, or fish cake coated in a thick batter and deep-fried. It's a popular street food in Korea and is also becoming popular in other parts of the world.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/03/air-fryer-steak-1592w-2-150x150.webp",
+      "serves": "4",
+      "prepTime": "20",
+      "cookTime": "10",
+      "totalTime": "30",
+      "ingredients": [
+        {
+          "name": "1/4 cup chicken stock",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "2 tbsp oyster sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "name": "1 teaspoon baking powder",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon salt",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon black pepper",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1 egg, beaten",
+          "quantity": "1",
+          "unit": "egg"
+        },
+        {
+          "name": "1 cup panko bread crumbs",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup vegetable oil",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "In a bowl, whisk together the flour, baking powder, salt, and pepper.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "In a separate bowl, whisk together the egg and panko bread crumbs.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Dip the hot dogs in the flour mixture, then the egg mixture, and then the panko bread crumb mixture.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Heat the vegetable oil in a deep skillet or pot over medium heat.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Fry the corn dogs in batches for 2-3 minutes per side, or until golden brown and cooked through.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Serve immediately with your favorite dipping sauce.",
+          "time": "0 minutes"
+        }
+      ],
+      "category": "GLUTEN-FREE",
+      "calories": 420,
+      "rating": 4.8,
+      "nutrition": {
+        "calories": 420,
+        "fat": "20g",
+        "saturated_fat": "8g",
+        "cholesterol": "100mg",
+        "sodium": "300mg",
+        "carbohydrates": "35g",
+        "fiber": "2g",
+        "sugar": "2g",
+        "protein": "10g"
+      }
+    },
+    {
+      "id": 28,
+      "typeFoodId": 32,
+      "name": "Orange Chicken",
+      "description": "A Korean corn dog is a hot dog, mozzarella cheese, or fish cake coated in a thick batter and deep-fried. It's a popular street food in Korea and is also becoming popular in other parts of the world.",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2023/07/orange-chicken-2345w-150x150.webp",
+      "serves": "4",
+      "prepTime": "20",
+      "cookTime": "10",
+      "totalTime": "30",
+      "ingredients": [
+        {
+          "name": "1/4 cup chicken stock",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "name": "2 tbsp oyster sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "name": "1 teaspoon baking powder",
+          "quantity": "1",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon salt",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1/2 teaspoon black pepper",
+          "quantity": "1/2",
+          "unit": "teaspoon"
+        },
+        {
+          "name": "1 egg, beaten",
+          "quantity": "1",
+          "unit": "egg"
+        },
+        {
+          "name": "1 cup panko bread crumbs",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "name": "1/2 cup vegetable oil",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "In a bowl, whisk together the flour, baking powder, salt, and pepper.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "In a separate bowl, whisk together the egg and panko bread crumbs.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Dip the hot dogs in the flour mixture, then the egg mixture, and then the panko bread crumb mixture.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Heat the vegetable oil in a deep skillet or pot over medium heat.",
+          "time": "5 minutes"
+        },
+        {
+          "step": "Fry the corn dogs in batches for 2-3 minutes per side, or until golden brown and cooked through.",
+          "time": "10 minutes"
+        },
+        {
+          "step": "Serve immediately with your favorite dipping sauce.",
+          "time": "0 minutes"
+        }
+      ],
+      "category": "GLUTEN-FREE",
+      "calories": 420,
+      "rating": 4.8,
+      "nutrition": {
+        "calories": 420,
+        "fat": "20g",
+        "saturated_fat": "8g",
+        "cholesterol": "100mg",
+        "sodium": "300mg",
+        "carbohydrates": "35g",
+        "fiber": "2g",
+        "sugar": "2g",
+        "protein": "10g"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "typeFoodId": 1,
+      "author": "John Doe",
+      "comment": "This recipe was delicious! I loved the combination of honey and garlic. I will definitely make this again."
+    },
+    {
+      "id": 2,
+      "typeFoodId": 1,
+      "author": "Jane Doe",
+      "comment": "This recipe was easy to follow and the chicken turned out perfectly cooked. I will definitely recommend this to others."
+    },
+    {
+      "id": 3,
+      "typeFoodId": 2,
+      "author": "Jane Valk",
+      "comment": "This recipe was easy to follow and the chicken turned out perfectly cooked. I will definitely recommend this to others."
+    },
+    {
+      "id": 4,
+      "typeFoodId": 3,
+      "author": "John Doe",
+      "comment": "I loved this recipe! The flavors were amazing and it was simple to make. Highly recommended!"
+    },
+    {
+      "id": 5,
+      "typeFoodId": 4,
+      "author": "Sarah Smith",
+      "comment": "Delicious recipe! The combination of ingredients was fantastic. Can't wait to make it again!"
+    },
+    {
+      "id": 6,
+      "typeFoodId": 5,
+      "author": "Michael Brown",
+      "comment": "This dish exceeded my expectations. The flavors were bold and the preparation was easy. A new favorite!"
+    },
+    {
+      "id": 7,
+      "typeFoodId": 6,
+      "author": "Emily Johnson",
+      "comment": "The perfect recipe for a quick weeknight dinner. The whole family loved it!"
+    },
+    {
+      "id": 8,
+      "typeFoodId": 7,
+      "author": "David Wilson",
+      "comment": "I'm not usually a fan of chicken dishes, but this one changed my mind. Absolutely delicious!"
+    },
+    {
+      "id": 9,
+      "typeFoodId": 8,
+      "author": "Sophia Davis",
+      "comment": "Impressive recipe! The presentation was beautiful, and the taste was even better."
+    },
+    {
+      "id": 10,
+      "typeFoodId": 9,
+      "author": "Oliver Martinez",
+      "comment": "This recipe is a keeper. The chicken was tender, and the sauce had the perfect balance of flavors."
+    },
+    {
+      "id": 11,
+      "typeFoodId": 10,
+      "author": "Isabella Anderson",
+      "comment": "I've made this recipe multiple times, and it never disappoints. Highly recommended!"
+    },
+    {
+      "id": 12,
+      "typeFoodId": 11,
+      "author": "Daniel Lee",
+      "comment": "Great recipe! The instructions were clear, and the end result was delicious. Will make it again soon."
+    },
+    {
+      "id": 13,
+      "typeFoodId": 12,
+      "author": "Ava Taylor",
+      "comment": "I'm a beginner cook, and this recipe was perfect for me. Easy to follow and the outcome was fantastic!"
+    },
+    {
+      "id": 14,
+      "typeFoodId": 13,
+      "author": "William Clark",
+      "comment": "This recipe is a winner! The chicken was moist, and the flavors were well-balanced. Definitely a must-try."
+    },
+    {
+      "id": 15,
+      "typeFoodId": 14,
+      "author": "Mia Rodriguez",
+      "comment": "I made this for a dinner party, and everyone loved it. A crowd-pleasing recipe for sure!"
+    },
+    {
+      "id": 16,
+      "typeFoodId": 15,
+      "author": "James Thompson",
+      "comment": "The chicken was perfectly seasoned, and the cooking time was spot-on. I'll be making this again."
+    },
+    {
+      "id": 17,
+      "typeFoodId": 16,
+      "author": "Lily White",
+      "comment": "Delicious and easy recipe! The chicken was juicy, and the flavors were fantastic. Definitely recommend."
+    },
+    {
+      "id": 18,
+      "typeFoodId": 17,
+      "author": "Benjamin Green",
+      "comment": "This recipe turned out amazing! The chicken was tender and flavorful. A new favorite in my household."
+    },
+    {
+      "id": 19,
+      "typeFoodId": 3,
+      "author": "Samantha Lee",
+      "comment": "I absolutely loved this recipe! The flavors were incredible and it was a hit with my family."
+    },
+    {
+      "id": 20,
+      "typeFoodId": 4,
+      "author": "John Smith",
+      "comment": "This dish was a game-changer! The combination of ingredients was mind-blowing. Can't wait to make it again!"
+    },
+    {
+      "id": 21,
+      "typeFoodId": 5,
+      "author": "Emily Davis",
+      "comment": "Wow! This recipe was a winner. The flavors were bold and the preparation was a breeze. Highly recommended!"
+    },
+    {
+      "id": 22,
+      "typeFoodId": 6,
+      "author": "Michael Johnson",
+      "comment": "I made this for dinner and it was a hit! The whole family loved it. Definitely adding it to our regular rotation."
+    },
+    {
+      "id": 23,
+      "typeFoodId": 7,
+      "author": "Sophia Martinez",
+      "comment": "I'm usually not a fan of chicken dishes, but this one changed my mind. The flavors were outstanding!"
+    },
+    {
+      "id": 24,
+      "typeFoodId": 8,
+      "author": "Daniel Wilson",
+      "comment": "Impressive recipe! The presentation was beautiful, and the taste was even better. A definite crowd-pleaser."
+    },
+    {
+      "id": 25,
+      "typeFoodId": 9,
+      "author": "Olivia Thompson",
+      "comment": "This recipe exceeded my expectations. The chicken was tender, and the sauce was the perfect balance of flavors."
+    },
+    {
+      "id": 26,
+      "typeFoodId": 10,
+      "author": "Jacob Anderson",
+      "comment": "I've made this recipe multiple times, and it never disappoints. It has become one of my go-to dishes."
+    },
+    {
+      "id": 27,
+      "typeFoodId": 11,
+      "author": "Ava White",
+      "comment": "Great recipe! The instructions were clear, and the final result was delicious. Will definitely make it again."
+    },
+    {
+      "id": 28,
+      "typeFoodId": 12,
+      "author": "Noah Green",
+      "comment": "I'm a beginner cook, and this recipe was perfect for me. Easy to follow and the outcome was fantastic!"
+    },
+    {
+      "id": 29,
+      "typeFoodId": 13,
+      "author": "Isabella Rodriguez",
+      "comment": "This recipe is a winner! The chicken was moist, and the flavors were well-balanced. A must-try."
+    },
+    {
+      "id": 30,
+      "typeFoodId": 14,
+      "author": "Ethan Clark",
+      "comment": "I made this for a dinner party, and it was a hit. Everyone loved it and asked for the recipe."
+    },
+    {
+      "id": 31,
+      "typeFoodId": 15,
+      "author": "Mia Thompson",
+      "comment": "The chicken was perfectly seasoned, and the cooking time was spot-on. This recipe is a keeper."
+    },
+    {
+      "id": 32,
+      "typeFoodId": 16,
+      "author": "James Harris",
+      "comment": "Delicious and easy recipe! The chicken was juicy, and the flavors were fantastic. Highly recommend it."
+    },
+    {
+      "id": 33,
+      "typeFoodId": 17,
+      "author": "Benjamin Davis",
+      "comment": "This recipe turned out amazing! The chicken was tender and flavorful. Everyone loved it."
+    }
+  ]
+}
