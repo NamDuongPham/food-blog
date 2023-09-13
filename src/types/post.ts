@@ -5,13 +5,13 @@ export interface Post{
   id: string
   comments: [
       {
-          id: string,
-          userId: string,
+          id: number,
+          userId: number,
           text: string,
-          createAt: string
+          createAt: number
         }
   ]
-  like: number
+  likes: number
   shares: number
   photos: [{
   id: string,
