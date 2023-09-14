@@ -11,6 +11,7 @@ import { recipeApi } from "../services/recipeService";
 import { reviewApi } from "../services/reviewService";
 
 import { blogApi } from "../services/blog.service";
+import { productApi } from "../services/productService";
 
 
 export const store = configureStore({
@@ -23,6 +24,7 @@ export const store = configureStore({
     [recipeApi.reducerPath]: recipeApi.reducer,
     [reviewApi.reducerPath]: reviewApi.reducer,
     [blogApi.reducerPath]: blogApi.reducer,
+    [productApi.reducerPath]: productApi.reducer,
 
   },
   middleware: (getDefaultMiddleware) =>
@@ -35,6 +37,7 @@ export const store = configureStore({
       .concat(reviewApi.middleware)
       .concat(blogApi.middleware)
       .concat(userApi.middleware)
+      .concat(productApi.middleware)
 
 });
 setupListeners(store.dispatch);
