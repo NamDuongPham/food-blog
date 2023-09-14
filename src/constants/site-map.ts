@@ -30,6 +30,14 @@ export const SITE_MAP: SiteMap = {
     title: "Blog",
 
   },
+  LIVE: {
+    url: "/Live",
+    title: "Live",
+  },
+  DETAILLIVE: {
+    url: "/Live/Detail",
+    title: "Detail Live",
+  },
   CLASS: {
     url: "/class",
     title: "Class",
@@ -38,6 +46,7 @@ export const SITE_MAP: SiteMap = {
     url: "/detail-class/:classname",
     title: "Detail Class",
   },
+  
   ADMIN: {
     url: "/admin",
     title: "Admin",

@@ -7,7 +7,7 @@ import { SITE_MAP } from "../../constants/site-map";
 const listItems = [
   ["Home", <AiFillHome />],
   ["Blog", <MdOutlineArticle />],
-  ["Video", <BiSolidVideos />],
+  ["Live", <BiSolidVideos />],
   ["Class", <AiFillVideoCamera />],
 ];
 

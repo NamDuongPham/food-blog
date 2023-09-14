@@ -45,7 +45,7 @@ function CategoryBox(props: ICategoryProps) {
       
     `}
       >
-        <div className="font-medium text-sm ">{label}</div>
+        <div className="font-medium text-sm text-black hover:text-rose-500">{label}</div>
       </div>
     </>
   );
