@@ -46,7 +46,7 @@ function UserMenu() {
           <div className="hidden md:block ">
             {user ? (
               <img
-                src="/images/user.png"
+                src="/images/user.jpg"
                 alt=""
                 className="rounded-full"
                 height="30"

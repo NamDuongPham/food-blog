@@ -8,8 +8,12 @@ import HomePage from "../pages/Home/HomePage";
 import DetailClass from "../modules/Class/Detail/DetailClass";
 import ClassPage from "../pages/Class/ClassPage";
 import DetailPage from "../pages/Detail/DetailPage";
+
 import LiveStreamPage from "../pages/LiveStream/LiveStreamPage";
 import DetailLiveStream from "../modules/LiveStream/components/DetailLiveStream/DetailLiveStream";
+
+import MarketPage from "../pages/Market/MarketPage";
+
 
 
 
@@ -22,8 +26,12 @@ export const Router = () => {
         <Route path={SITE_MAP.DETAIL.url} element={<DetailPage />} />
         <Route path={SITE_MAP.CLASS.url} element={<ClassPage />} />
         <Route path={SITE_MAP.DETAIL_CLASS.url} element={<DetailClass />} />
+
         <Route path={SITE_MAP.LIVE.url} element={<LiveStreamPage />} />
         <Route path={SITE_MAP.DETAILLIVE.url} element={<DetailLiveStream />} />
+
+        <Route path={SITE_MAP.MARKET.url} element={<MarketPage />} />
+
       </Route>
 
       {/* <-------------layout admin--------------------> */}

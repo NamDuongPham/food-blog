@@ -3,12 +3,14 @@ import { AiFillHome, AiFillVideoCamera } from "react-icons/ai";
 import { BiSolidVideos, BiSolidPencil } from "react-icons/bi";
 import { useState } from "react";
 import { SITE_MAP } from "../../constants/site-map";
+import { BsFillCartFill } from "react-icons/bs";
 
 const listItems = [
   ["Home", <AiFillHome />],
   ["Blog", <MdOutlineArticle />],
   ["Live", <BiSolidVideos />],
   ["Class", <AiFillVideoCamera />],
+  ["Market", <BsFillCartFill />]
 ];
 
 export default function SlideBar() {
