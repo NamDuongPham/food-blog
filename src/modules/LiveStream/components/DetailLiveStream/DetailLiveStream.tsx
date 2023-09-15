@@ -1,9 +1,11 @@
+import { useTitle } from "../../../../hooks/useTitle";
 import "./live.css";
 function DetailLiveStream() {
+  useTitle("Live stream");
   return (
     <div>
       <div>
-        <div className="row main">
+        <div className="row main mr-0">
           <div className="col-lg-3 channels">
             <br />
             <p className="highlight">Best</p>
@@ -15,8 +17,11 @@ function DetailLiveStream() {
               </div>
               <div className="col-lg-4 col-md-4 col-sm-4">
                 <p>Top Risers</p>
-                <p style={{ color: "gray", width: "100%", fontSize: 12 }}>
-                  Apex Legends
+                <p
+                  style={{ color: "gray", width: "100%", fontSize: 12 }}
+                  className="mt-2"
+                >
+                  Mukbang
                 </p>
               </div>
               <div
@@ -32,8 +37,11 @@ function DetailLiveStream() {
               </div>
               <div className="col-lg-4 col-md-4 col-sm-4">
                 <p>AllStarsShine</p>
-                <p style={{ color: "gray", width: "100%", fontSize: 12 }}>
-                  Valorant
+                <p
+                  style={{ color: "gray", width: "100%", fontSize: 12 }}
+                  className="mt-2"
+                >
+                  Cooking
                 </p>
               </div>
               <div
@@ -49,8 +57,11 @@ function DetailLiveStream() {
               </div>
               <div className="col-lg-4 col-md-4 col-sm-4">
                 <p>SMM1</p>
-                <p style={{ color: "gray", width: "100%", fontSize: 12 }}>
-                  Fortnite
+                <p
+                  style={{ color: "gray", width: "100%", fontSize: 12 }}
+                  className="mt-2"
+                >
+                  Review food
                 </p>
               </div>
               <div
@@ -60,44 +71,11 @@ function DetailLiveStream() {
                 <p>20.8K</p>
               </div>
             </div>
-            <div className="row">
-              <div className="col-lg-4 col-md-4 col-sm-4">
-                <img src="https://i.pinimg.com/originals/79/8f/5f/798f5f22f89dddafb188e5cb4089201b.png" />
-              </div>
-              <div className="col-lg-4 col-md-4 col-sm-4">
-                <p>PowerUp</p>
-                <p style={{ color: "gray", width: "100%", fontSize: 12 }}>
-                  PUBG
-                </p>
-              </div>
-              <div
-                className="col-lg-4 col-md-4 col-sm-4"
-                style={{ textAlign: "right" }}
-              >
-                <p>19.2K</p>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-4 col-md-4 col-sm-4">
-                <img src="https://i.pinimg.com/236x/8d/02/ed/8d02edb5b00a2d11a398fefc56ac45e7.jpg" />
-              </div>
-              <div className="col-lg-4 col-md-4 col-sm-4">
-                <p>IndianaG</p>
-                <p style={{ color: "gray", width: "100%", fontSize: 12 }}>
-                  PUBG
-                </p>
-              </div>
-              <div
-                className="col-lg-4 col-md-4 col-sm-4"
-                style={{ textAlign: "right" }}
-              >
-                <p>19K</p>
-              </div>
-            </div>
+
             <br />
             <button className="btn grad btn-lg">Browse More</button>
           </div>
-          <div className="col-lg-6 middle">
+          {/* <div className="col-lg-6 middle">
             <br />
             <div className="jumbo">
               <p>LIVE</p>
@@ -148,6 +126,17 @@ function DetailLiveStream() {
                 </div>
               </div>
             </section>
+          </div> */}
+          <div className="col-lg-6 middle">
+            <iframe
+              width="100%"
+              height={480}
+              src="https://www.youtube.com/embed/tf6LPLTqU3A"
+              title="Asian Street Food 24/7 Live"
+              frameBorder={0}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
           </div>
           <div className="col-lg-2 articles">
             <br />
@@ -156,29 +145,16 @@ function DetailLiveStream() {
             </p>
             <h3>Articles</h3>
             <br />
+           
             <div
-              className="img-container"
-              style={{
-                backgroundImage:
-                  "url(https://wallpaperaccess.com/full/255714.jpg)",
-              }}
-            >
-              <h5>Is gaming good for children?</h5>
-              <a href="#" style={{ color: "blueviolet" }}>
-                Read More
-              </a>
-            </div>
-            <div
-              className="img-container"
+              className="img-container text-white"
               style={{
                 backgroundImage:
                   "url(https://cdn.wallpapersafari.com/61/89/co5DTf.jpg)",
               }}
             >
-              <h5>Esports is the future of all sports</h5>
-              <a href="#" style={{ color: "blueviolet" }}>
-                Read More
-              </a>
+              <h5 className="my-5 relative -top-14">Cooking is the future of all life</h5>
+              
             </div>
             <br />
             <button
@@ -195,10 +171,41 @@ function DetailLiveStream() {
             </p>
             <h3>Tags</h3>
             <br />
-            <div className="tag mr-4 text-white">Valorant</div>
-            <div className="tag text-white">Valorant</div>
+            <div className="tag mr-4 text-white">Cooking 24/7</div>
+            
             <br />
           </div>
+
+          {/* <div className="chat bg-[#000]  col-lg-3">
+            <div className="header">
+              <i tabIndex={0} className="icon chevron right" />
+              <p tabIndex={0}>Welcome to room Chat</p>
+              <i tabIndex={0} className="icon users" />
+            </div>
+            
+            <div className="text-white flex flex-col justify-start">
+              dấdsds
+            </div>
+            <div className="actions">
+              <form action="#" className="actions-form">
+                <textarea
+                  className="input-message"
+                  placeholder="Send a message"
+                  defaultValue={""}
+                />
+            
+              </form>
+              <div tabIndex={0} className="actions-rewards">
+                <i className="icon circle outline" />
+                <span className="coin-total">180</span>
+              </div>
+              <i tabIndex={0} className="actions-setting icon cog" />
+              <button className="actions-sendMessage form-button">Chat</button>
+            
+            </div>
+          </div> */}
+
+          {/*  */}
         </div>
       </div>
     </div>

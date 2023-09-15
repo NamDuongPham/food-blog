@@ -3,7 +3,7 @@ import CardLives from "./components/CardLives/CardLives";
 
 function LiveStream() {
 
-  return <div className="w-full px-4 lg:px-10">
+  return <div className="w-full ">
     {/* Browse */}
     <Browse/>
     {/* CardLives */}

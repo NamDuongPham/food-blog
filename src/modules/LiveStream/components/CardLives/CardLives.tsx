@@ -1,19 +1,15 @@
 
-import tv from "../../../../../public/images/tv.jpg";
+import mukbangimg from "../../../../../public/images/mukbangimg.jpg";
+import classKid from "../../../../../public/images/classKid.webp";
+import cookLive from "../../../../../public/images/cookLive.jpg";
 import CardChildren from "./CardChildren";
 function CardLives() {
     const cards = [
-        { title: "Let's Talk", image: tv },
-        { title: "Video Games", image: tv },
-        { title: "Let's Talk", image: tv },
-        { title: "Let's Talk", image: tv },
-        { title: "Let's Talk", image: tv },
-        { title: "Let's Talk", image: tv },
-        { title: "Video Games", image: tv },
-        { title: "Let's Talk", image: tv },
-        { title: "Let's Talk", image: tv },
-        { title: "Let's Talk", image: tv },
-        { title: "Let's Talk", image: tv },
+        { title: "Mukbang streamer live", image: mukbangimg },
+        { title: "Cooking for kid", image: classKid },
+        { title: "Let's Talk", image: cookLive },
+        
+      
       ];
     return (
         <div>
@@ -32,7 +28,7 @@ function CardLives() {
         />
       </div>
       {/* Cards */}
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap gap-10">
         {cards.map((card,index) => (
           <CardChildren key={index} title={card.title} image={card.image} />
         ))}

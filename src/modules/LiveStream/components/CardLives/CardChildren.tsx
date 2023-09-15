@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { SITE_MAP } from "../../../../constants/site-map";
-
+import {CiStreamOn} from"react-icons/ci"
 interface IProps {
   title: string;
   image: string;
@@ -15,11 +15,15 @@ function CardChildren(props: IProps) {
         <img
           src={image}
           alt=""
-          className="object cover  h-full rounded-[0.5rem]"
+          className="object-cover h-full rounded-[0.5rem]"
         />
       </div>
-      <p className="font-semibold text-[18px]">{title}</p>
-      <p className=" text-gray-600 -mt-1">417k viewers</p>
+      <div className="flex w-full justify-between items-center ">
+      <p className="font-semibold text-[18px] my-2">{title}</p>
+      <p><CiStreamOn size={20} color="red"/></p>
+      </div>
+      <p className=" text-gray-600 my-1">417k viewers</p>
+      
     </div>
    </Link>
   );
